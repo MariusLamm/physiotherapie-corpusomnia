@@ -1,0 +1,328 @@
+{
+  "nav": {
+    "openingHours": "Çalışma Saatleri",
+    "expertise": "Uzmanlık",
+    "location": "Konum",
+    "contact": "İletişim",
+    "team": "Ekip",
+    "practice": "Pratik",
+    "bookOnline": "Online Randevu Al"
+  },
+  "hero": {
+    "title": "Fizyoterapi",
+    "titleHighlight": "Corpus Omnia",
+    "subtitle": "En yeni bilimsel standartlara göre kanıta dayalı fizyoterapi. Dietlikon'da deneyimli terapistler tarafından profesyonel bakım.",
+    "bookAppointment": "Online Randevu Al",
+    "contactUs": "Bize Ulaşın",
+    "insuranceText": "Tüm sağlık sigortaları tarafından tanınmaktadır"
+  },
+  "benefits": {
+    "badge": "Avantajlarınız",
+    "title": "Bizimle Avantajlarınız",
+    "description": "Bizde en yeni bilimsel standartlara göre fizyoterapiden yararlanırsınız. Geniş uzmanlıklarıyla sizinle en iyi şekilde ilgilenen deneyimli terapistlerimize güvenin. Sağlam bilgi ve deneyimin sağlığınız için yapabileceği farkı yaşayın!",
+    "moreThan": "fazla",
+    "patientsCount": "başarıyla tedavi edilen hasta",
+    "card1Title": "En Yeni Bilimsel Standartlar",
+    "card1Desc": "Modern tedavi yöntemleriyle kanıta dayalı fizyoterapi",
+    "card2Title": "Deneyimli Terapistler",
+    "card2Desc": "Kapsamlı uzmanlık ve sürekli mesleki gelişim",
+    "card3Title": "Bekleme Listesi Yok",
+    "card3Desc": "Kısa süreli randevular da spontane olarak mevcut",
+    "card4Title": "Bireysel Bakım",
+    "card4Desc": "Özel ihtiyaçlarınıza göre özelleştirilmiş terapi"
+  },
+  "availability": {
+    "badge": "Müsait",
+    "title": "Bizde Bekleme Listesi Yok",
+    "description": "Kısa sürede randevuya mı ihtiyacınız var? Sorun değil! Bizde genellikle spontane olarak yer bulabilirsiniz. Telefon, e-posta veya doğrudan online kayıt ile talebinizi bekliyoruz. Çeşitli hizmet yelpazemizi keşfedin ve hizmetimizle sizi ikna edelim!",
+    "bookNow": "Şimdi online rezervasyon yapın",
+    "call": "Ara",
+    "email": "E-posta",
+    "contactOptions": "İletişim Seçenekleri",
+    "phone": "Telefon",
+    "onlineBooking": "Online Rezervasyon"
+  },
+  "openingHours": {
+    "title": "Randevular & Müsaitlik",
+    "description": "Bekleme listesi yok – kısa süreli randevular da bizde mümkündür. Şu anda sabit çalışma saatlerimiz yok. Randevunuzu online, telefonla, WhatsApp veya e-posta ile esnek bir şekilde ayarlayın.",
+    "appointment": "Randevu Planlaması",
+    "flexible": "Anlaşmaya göre esnek",
+    "bookingOptions": "Rezervasyon Seçenekleri",
+    "methods": "Online, Telefon, E-posta, WhatsApp"
+  },
+  "quote": {
+    "title": "Bizi Harekete Geçiren",
+    "text": "Amacımız, bilim ve araştırmadan elde edilen kanıta dayalı bulguları terapiye dahil etmektir. Bizim için hastaların odak noktası olduğu etkili ve hastaya özgü bir terapi sunmak önemlidir."
+  },
+  "expertise": {
+    "badge": "Uzmanlığımız",
+    "title": "Uzmanlığımız",
+    "description": "Uzun yıllara dayanan deneyim ve sürekli eğitim ile çeşitli temel alanlarda uzmanlaşıyoruz"
+  },
+  "services": {
+    "allgemeine-physiotherapie": {
+      "title": "Genel Fizyoterapi",
+      "description": "Genel fizyoterapi, anatomik ve fizyolojik koşullara dayalı olarak vücudun bütünsel tedavisini ifade eder. Konservatif ve postoperatif fizyoterapinin bireyselliğine büyük önem verilmektedir. Anamnez ve muayene yoluyla şikayetlerinizin klinik olarak nasıl ortaya çıktığını anlamak bizim için önemlidir. Böylece size özel bir fizyoterapi uygulayabiliriz. Terapist ve hasta olarak bir ekip halinde belirlenen hedeflere birlikte ulaşabiliriz."
+    },
+    "geriatrie": {
+      "title": "Geriatri",
+      "description": "Geriatrik fizyoterapide, yaşlı hastalarımızın sağlıklı yaşlanmaya devam edebilmelerine (uzun ömür) önem veriyoruz. Yeterli bir eğitimle bağımsızlık korunabilir veya geliştirilebilir. Böylece olumlu bir yaşam kalitesi sağlanabilir. Eğitim her seviyeye uyarlanmıştır. Özellikle demans ve kırılganlık sendromu gibi yaşa bağlı tanılarda, çeşitli standart değerlendirmelerle fizyoterapi aracılığıyla en iyi şekilde ölçebildiğimiz düzenli egzersiz öneriyoruz. Eğitim güç artırma, denge ve yürüme güvenliğinin iyileştirilmesi (yardımcı cihazlarla veya cihazlar olmadan), dayanıklılık, ikili/çoklu görev, düşme profilaksisi, koordinasyon eğitimi ve propriyosepsiyonun iyileştirilmesinden oluşmaktadır."
+    },
+    "pravention": {
+      "title": "Önleme",
+      "description": "Neden şikayetleriniz olana kadar bekleyesiniz? Günümüzde, uzun ömür (sağlıklı yaşlanma olarak tanımlanır) sağlamak için önleyici terapi çok önemlidir. Bizimle aktif kalın ve bakım ihtiyacını mümkün olduğunca erteleyebilmenizi sağlayın. Sizi formda tutmak ve bağımsızlığınızı korumak için birlikte en iyi ve en işlevsel yolu bulacağız."
+    },
+    "sturzpravention": {
+      "title": "Düşme Önleme",
+      "description": "Düşme önleme genellikle geriatrik fizyoterapi ile birlikte uygulanır. Böylece yaşlı hastalarımızın yardımcı cihazlarla veya cihazlar olmadan (baston, yürüteç, tekerlekli sandalye vb.) ayaklarının üzerinde daha güvenli olmalarını ve yürüme güvenliği kazanmalarını sağlayabiliriz. Terapiye entegre edilen çeşitli zorluklar aracılığıyla zor günlük yaşam durumları simüle edilebilir ve pratik yapılabilir. Bu aynı zamanda yeterli güç antrenmanı ve kondisyon artırma içerir."
+    },
+    "domizilbehandlungen": {
+      "title": "Evde Tedavi",
+      "description": "Kliniğimize gelmeniz mümkün değil mi? Sorun yok, biz size eve geliyoruz. Kendi evinizde de yeterli, işlevsel ve günlük yaşamla ilgili bir eğitim yapılabilir. Günlük yaşamda size zorluk çıkaran şeylere bakıyor, sorunu analiz ediyor, sizinle birlikte çözümler arıyor ve bunları terapiye entegre ediyoruz.",
+      "details": {
+        "0": "Dikkat: Sağlık sigortasının yol ücretini karşılayabilmesi için fizyoterapi reçetesinde evde tedavi işaretlenmelidir."
+      }
+    },
+    "orthopadie": {
+      "title": "Ortopedi",
+      "description": "Ortopedide, kas-iskelet sisteminin tüm sorunları tedavi edilir. Burada da anamnez ve değerlendirme yoluyla sorun kesin olarak incelenir ve analiz edilir. Tedaviler, özel sorunlarınıza göre bireysel olarak uyarlanarak uygulanır.",
+      "details": {
+        "0": "Menisküs",
+        "1": "Tüm eklemlerde artrit",
+        "2": "ÖÇB kopması / gerilmesi",
+        "3": "Burkulma travması",
+        "4": "Kas gerilmesi",
+        "5": "Disk hernisi",
+        "6": "Kırıklar",
+        "7": "Üst ve alt ekstremite tendon sorunları",
+        "8": "Yapay eklemler sonrası postoperatif tedaviler (total diz protezi, parsiyel diz protezi, total omuz protezi, ters omuz protezi vb.)"
+      }
+    },
+    "chirurgie": {
+      "title": "Cerrahi",
+      "description": "Cerrahi geniş bir terimdir. Bu uzmanlık alanında, ortopedik müdahalelerin rehabilitasyonunu ve iç organlardaki müdahaleler sonrası iyileşmeyi destekliyoruz. Cerrahların çeşitli protokolleri rehabilitasyonda bize yol gösterir. Kalp ameliyatı gibi uzun süreli hastane kalışlarından sonra, kondisyonun yeniden kazanılmasına önem veriyoruz.",
+      "details": {
+        "0": "Protokole göre tedavi süreci (cerrah bazında bireysel)",
+        "1": "Genel gücün desteklenmesi",
+        "2": "Etkilenen eklemlerde stabilitenin desteklenmesi",
+        "3": "Kardiyopulmoner sistemin desteklenmesi",
+        "4": "Bilişsel fonksiyonların desteklenmesi (özellikle deliryum veya demans durumlarında)"
+      }
+    },
+    "lymphologie": {
+      "title": "Lenfoloji",
+      "description": "Lenf sistemi, bağışıklık sisteminin önemli bir parçasıdır ve hastalık etkenlerine karşı savunma görevi görür. Lenf damarları, lenf düğümleri, dalak, timus ve bademcikler gibi lenfatik organlar ile berrak bir sıvı olan lenften oluşur. Lenf, atık ürünleri, fazla doku sıvısını ve bağışıklık hücrelerini vücutta taşır. Lenf düğümleri, lenfi süzer ve hastalık etkenlerini tanımaya ve bunlarla savaşmaya yardımcı olur. Ayrıca, lenf sistemi bağırsaktan kan dolaşımına yağ taşınmasında önemli bir rol oynar.\n\nLenfolojik fizyoterapide, sorununuzun nerede olduğu incelenir. Bu, lenf düğümü çıkarılması sonrası, kemoterapi/radyasyon tedavileri sonrası postoperatif takip tedavilerini içerir. Bu tür müdahaleler genellikle etkilenen ekstremitelerde veya gövdede ödemlere yol açabilir. Ancak sadece cerrahi müdahaleler ödeme neden olmaz.",
+      "details": {
+        "0": "Birincil lenfödem",
+        "1": "İkincil lenfödem",
+        "2": "Flebödem (venöz yetmezlik)",
+        "3": "Karışık ödemler",
+        "4": "İmmobilizasyon ödemleri",
+        "5": "Postoperatif (zamanla sınırlı) ödemler, ör. ortopedik cerrahi müdahale sonrası",
+        "6": "Libödem"
+      }
+    },
+    "innere-medizin": {
+      "title": "İç Hastalıkları",
+      "description": "Organ sistemini etkileyen hastalıklardan sonra, birçok hasta genellikle hastanede daha uzun süre kalmak zorunda kalır, örneğin kalp hastalıkları veya akciğer hastalıkları sonrası. Birçoğu daha sonra günlük yaşamlarına geri dönmekte zorlanır. Ya güç büyük ölçüde azalmıştır ya da solunum sistemi ciddi şekilde etkilenmiştir. Burada hedef, kardiyovasküler sistemi yeniden güçlendirmek (kondisyon artırma) ve gerektiğinde solunum terapisi ile desteklemektir. Solunum terapisi yoluyla akciğerler tekrar düzgün bir şekilde havalandırılabilir ve atelektazi/pnömoni profilaksisi olarak görev yapar. İyileşmenizde size destek oluyor ve günlük yaşamınıza tekrar dönebilmenize büyük önem veriyoruz."
+    },
+    "neurologie": {
+      "title": "Nöroloji",
+      "description": "Nöroloji, fizyoterapide çok karmaşık bir uzmanlık alanıdır. Ancak her zorluğu kabul ediyoruz. Tüm uzmanlık alanlarında olduğu gibi, tedavilerin bireyselliğine büyük önem veriyoruz.",
+      "details": {
+        "0": "Serebrovasküler olay (SVO) / beyin enfarktüsü / kanama",
+        "1": "Parkinson hastalığı",
+        "2": "Multipl skleroz",
+        "3": "Demans hastalıkları",
+        "4": "Travmatik beyin hasarı",
+        "5": "Polinöropati",
+        "6": "Ataksi",
+        "7": "Periferik nörolojik hastalıklar / yaralanmalar",
+        "8": "Parapleji / tetrapleji"
+      }
+    },
+    "sportphysiotherapie": {
+      "title": "Spor Fizyoterapisi ve Yaralanma Önleme",
+      "description": "Sporcular genellikle yüksek yaralanma riskine sahiptir. Dövüş sporları, top sporları, su sporları, tırmanma vb. vücudun tam performansını gerektirir. Spor yaralanmalarında ister postoperatif ister konservatif olsun, \"akut evreden\" \"yarışmaya dönüşe\" kadar rehabilitasyonunuz boyunca size eşlik ediyoruz. Uzun vadeli önlemeye önem verilmektedir. Bir kez olan bir daha olmamalıdır!"
+    },
+    "massage": {
+      "title": "Masaj",
+      "description": "Stresli gününüzden sonra biraz rahatlama veya yoğun bir antrenman sonrası spor masajına mı ihtiyacınız var? Klasik masaj veya spor masajı için bize gelebilirsiniz. Anatomi bilgimiz sayesinde büyük bir avantaja sahibiz ve kas sorun bölgelerinizi daha verimli bir şekilde masaj yapabiliriz."
+    },
+    "senioren-turnen": {
+      "title": "Yaşlılar İçin Egzersiz",
+      "description": "Emeklilikten sonra da formda kalmak mı istiyorsunuz? Yaşlılıkta formda olmak ve bağımsızlığınızın tadını mümkün olduğunca uzun süre çıkarmak mı istiyorsunuz? O zaman yaşlılar egzersiz programımıza kaydolun! Bir fizyoterapist olarak, herkesin katılabileceği şekilde programı tasarlayacağız. Amaç güç, denge, koordinasyon ve yürüme güvenliğini artırmaktır. Böylece ileri yaşlarda da yaşam kalitenizi korur ve günlük yaşamınızda daha çevik olursunuz."
+    },
+    "fachliche-beratung": {
+      "title": "Profesyonel Danışmanlık",
+      "description": "Fizyoterapi hakkında özel sorularınız mı var veya fizyoterapinin endike olup olmadığı konusunda danışmanlığa mı ihtiyacınız var? Sorununuzu birlikte tartışmaktan ve analiz etmekten memnuniyet duyarız. Profesyonel danışmanlık 60 dakika sürer. Ancak doktorunuzdan bir fizyoterapi reçetesi (reçete başına 9 seans) almaya karar verirseniz, bu randevuyu tedavi serisine dahil edebiliriz. Profesyonel danışmanlık klinikte, telefonla veya online olarak yapılabilir."
+    },
+    "zusatzliche-angebote": {
+      "title": "Ek Hizmetler",
+      "description": "Ana tedavilerimizin yanı sıra çeşitli tamamlayıcı terapi formları sunuyoruz:",
+      "details": {
+        "0": "Kinezyoteypleme",
+        "1": "Kupa tedavisi",
+        "2": "Dry Needling",
+        "3": "Ultrason tedavisi",
+        "4": "Tetik nokta tedavisi",
+        "5": "Çene tedavisi (TMD/TME)"
+      }
+    }
+  },
+  "teamMembers": {
+    "goncagul-erol": {
+      "title": "Diplomalı Fizyoterapist (Lisans)",
+      "languages": {
+        "0": "Almanca",
+        "1": "İngilizce",
+        "2": "Türkçe"
+      },
+      "qualifications": {
+        "0": "Servikal Omurga Güncellemesi (ZHAW 2021)",
+        "1": "Top 30 Dry Needling (David G. Simon Academy 2021)",
+        "2": "Lenf Sistemi Temelleri (2022)",
+        "3": "Zamanla Sınırlı Ödemler Alt Ekstremiteler (2022)",
+        "4": "Zamanla Sınırlı Ödemler Üst Ekstremiteler (2022)",
+        "5": "CAS İleri Lenfolojik Fizyoterapi (2023)",
+        "6": "Dry Needling Advanced Upper Body (2023)",
+        "7": "Dry Needling Advanced Lower Body (2023)",
+        "8": "Demans ve Kırılganlık (2024)",
+        "9": "Didaktik Klinik Eğitmen (2024)",
+        "10": "TMD Basic Level 1 (CranioConcept 2025; Çene Tedavisi)",
+        "11": "TMD Advanced Level 1 (CranioConcept 2025; Çene Tedavisi)"
+      }
+    }
+  },
+  "location": {
+    "badge": "Konum",
+    "title": "Kliniğimiz & Konum",
+    "address": "Adres",
+    "practiceName": "Fizyoterapi Corpus Omnia – Kowerk",
+    "street": "Industriestrasse 24",
+    "city": "8305 Dietlikon",
+    "parking": "Otopark",
+    "parkingDesc": "1. bodrum katında otopark mevcuttur",
+    "planRoute": "Rota Planla",
+    "directions": "Bizi Nasıl Bulursunuz",
+    "directionsText": "Ana girişten (otobüs durağında) veya Batı asansöründen, lütfen atriumdan Doğu asansörüne gidin ve ardından kliniğimize kadar sol koridoru takip edin. Doğu asansöründen geliyorsanız, sağa dönün ve arka koridorda yürüyün. Arka girişten (Dieci'nin karşısında) sağda kalın – bu şekilde bizi kolayca bulabilirsiniz. Ziyaretinizi dört gözle bekliyoruz!",
+    "practiceImage1": "Klinik tedavi odası",
+    "practiceImage2": "Klinik iç mekanı",
+    "practiceImage3": "Klinik tesisleri",
+    "practiceImage4": "Egzersiz ekipmanları"
+  },
+  "contact": {
+    "badge": "İletişim",
+    "title": "İletişim",
+    "description": "Sorularınız mı var veya randevu almak mı istiyorsunuz? Bizimle iletişime geçmekten çekinmeyin!",
+    "contactInfo": "İletişim Bilgileri",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "email": "E-posta",
+    "forDoctors": "Doktorlar İçin (HIN)",
+    "quickBooking": "Hızlı Randevu Rezervasyonu",
+    "quickBookingDesc": "Randevunuzu doğrudan online olarak alın – hızlı ve kolay!",
+    "bookNow": "Şimdi online rezervasyon yapın",
+    "sendMessage": "Mesaj Gönder",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "phoneNumber": "Telefon Numarası",
+    "emailAddress": "E-posta Adresi",
+    "message": "Mesaj",
+    "yourMessage": "Mesajınız...",
+    "send": "Gönder",
+    "sending": "Gönderiliyor...",
+    "successTitle": "Mesaj başarıyla gönderildi!",
+    "successDesc": "En kısa sürede size geri döneceğiz."
+  },
+  "team": {
+    "badge": "Ekibimiz",
+    "title": "Ekibimiz",
+    "description": "Deneyimli ve kalifiye ekibimizle tanışın",
+    "languages": "Diller",
+    "qualifications": "Nitelikler ve Eğitim"
+  },
+  "practice": {
+    "badge": "Kliniğimiz",
+    "title": "Kliniğimiz",
+    "description": "Ziyaretinizi dört gözle bekliyoruz",
+    "welcome": "Hoş Geldiniz",
+    "welcomeText": "Ana girişten (otobüs durağında) veya Batı asansöründen, lütfen atriumdan Doğu asansörüne gidin ve ardından kliniğimize kadar sol koridoru takip edin. Doğu asansöründen geliyorsanız, sağa dönün ve arka koridorda yürüyün. Arka girişten (Dieci'nin karşısında) sağda kalın – bu şekilde bizi kolayca bulabilirsiniz. Ziyaretinizi dört gözle bekliyoruz!",
+    "floorPlan": "Kat Planı"
+  },
+  "footer": {
+    "description": "Dietlikon'da bireysel bakım ve en yeni bilimsel standartlara odaklanan kanıta dayalı fizyoterapi.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "contact": "İletişim",
+    "followUs": "Bizi Takip Edin",
+    "rights": "Tüm hakları saklıdır.",
+    "agb": "Genel Şartlar",
+    "privacy": "Gizlilik Politikası",
+    "imprint": "Künye"
+  },
+  "legal": {
+    "agb": {
+      "pageTitle": "Genel Şartlar - Fizyoterapi Corpus Omnia",
+      "metaDesc": "Fizyoterapi Corpus Omnia'nın genel şartları",
+      "heading": "Genel Şartlar ve Koşullar",
+      "intro": "Burada Fizyoterapi Corpus Omnia'nın genel şartları ve koşulları yer almaktadır.",
+      "scope": {
+        "title": "1. Uygulama Kapsamı",
+        "text": "Bu genel şartlar ve koşullar, Fizyoterapi Corpus Omnia'nın tüm hizmetleri için geçerlidir."
+      },
+      "appointments": {
+        "title": "2. Randevu Planlaması",
+        "text": "Randevular online, telefonla, WhatsApp veya e-posta ile alınabilir."
+      },
+      "cancellation": {
+        "title": "3. İptal",
+        "text": "Gelememe durumunda, planlanan randevudan en az 24 saat önce zamanında iptal edilmesini rica ederiz."
+      },
+      "payment": {
+        "title": "4. Ödeme",
+        "text": "Faturalama sağlık sigortası üzerinden yapılır. Kendi ödeme yapanlar her tedaviden sonra faturalandırılır."
+      }
+    },
+    "datenschutz": {
+      "pageTitle": "Gizlilik Politikası - Fizyoterapi Corpus Omnia",
+      "metaDesc": "Fizyoterapi Corpus Omnia'nın gizlilik politikası",
+      "heading": "Gizlilik Politikası",
+      "intro": "Verilerinizin korunması bizim için önemlidir. Aşağıda kişisel verilerinizin toplanması ve kullanımı hakkında sizi bilgilendiriyoruz.",
+      "responsible": {
+        "title": "1. Sorumlu Taraf",
+        "text": "Fizyoterapi Corpus Omnia\nIndustriestrasse 24\n8305 Dietlikon\nTelefon: +41 76 681 70 31\nE-posta: info@physiotherapie-corpusomnia.ch"
+      },
+      "collection": {
+        "title": "2. Kişisel Verilerin Toplanması ve İşlenmesi",
+        "text": "Kişisel verilerinizi yalnızca tedavi kapsamında ve sözleşmeden doğan yükümlülüklerimizi yerine getirmek için topluyoruz ve kullanıyoruz."
+      },
+      "sharing": {
+        "title": "3. Veri Paylaşımı",
+        "text": "Verileriniz yalnızca açık onayınızla veya yasal olarak zorunlu olduğumuz durumlarda üçüncü taraflarla paylaşılır."
+      },
+      "rights": {
+        "title": "4. Haklarınız",
+        "text": "Kişisel verilerinizin bilgilendirilmesi, düzeltilmesi, silinmesi ve işlenmesinin kısıtlanması hakkına sahipsiniz."
+      }
+    },
+    "impressum": {
+      "pageTitle": "Künye - Fizyoterapi Corpus Omnia",
+      "metaDesc": "Fizyoterapi Corpus Omnia künye bilgileri",
+      "heading": "Künye",
+      "legalInfo": "İsviçre hukukuna göre bilgiler",
+      "practice": "Klinik",
+      "practiceAddress": "Fizyoterapi Corpus Omnia\nIndustriestrasse 24\n8305 Dietlikon\nİsviçre",
+      "contactTitle": "İletişim",
+      "contactInfo": "Telefon: +41 76 681 70 31\nE-posta: info@physiotherapie-corpusomnia.ch\nWebsite: physiotherapie-corpusomnia.ch",
+      "representative": "Yetkili Temsilci",
+      "representativeInfo": "Goncagül Erol\nDiplomalı Fizyoterapist (Lisans)",
+      "jobTitle": "Meslek Unvanı",
+      "jobTitleInfo": "Diplomalı Fizyoterapist (Lisans) (İsviçre'de verilmiştir)",
+      "authority": "Denetim Makamı",
+      "authorityInfo": "Zürih Kantonu Sağlık Müdürlüğü",
+      "disclaimer": "Sorumluluk Reddi",
+      "disclaimerText1": "Yazar, bilgilerin içerik doğruluğu, kesinliği, güncelliği, güvenilirliği ve eksiksizliği konusunda hiçbir garanti vermemektedir.",
+      "disclaimerText2": "Yayınlanan bilgilere erişim veya kullanım ya da kullanmama, bağlantının kötüye kullanımı veya teknik arızalar nedeniyle ortaya çıkan maddi veya manevi zararlar için yazara yönelik sorumluluk talepleri hariç tutulmuştur."
+    }
+  }
+}

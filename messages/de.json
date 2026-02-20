@@ -1,0 +1,328 @@
+{
+  "nav": {
+    "openingHours": "Öffnungszeiten",
+    "expertise": "Expertise",
+    "location": "Standort",
+    "contact": "Kontakt",
+    "team": "Team",
+    "practice": "Praxis",
+    "bookOnline": "Online Termin buchen"
+  },
+  "hero": {
+    "title": "Physiotherapie",
+    "titleHighlight": "Corpus Omnia",
+    "subtitle": "Evidenzbasierte Physiotherapie nach dem neuesten wissenschaftlichen Standard. Professionelle Betreuung durch erfahrene Therapeuten in Dietlikon.",
+    "bookAppointment": "Online Termin buchen",
+    "contactUs": "Kontakt aufnehmen",
+    "insuranceText": "Anerkannt von allen Krankenkassen"
+  },
+  "benefits": {
+    "badge": "Ihre Vorteile",
+    "title": "Ihre Vorteile bei uns",
+    "description": "Bei uns profitieren Sie von Physiotherapie nach dem allerneusten wissenschaftlichen Standard. Vertrauen Sie auf unsere erfahrenen Therapeuten, die mit ihrem umfangreichen Fachwissen bestens für Sie sorgen. Erleben Sie den Unterschied, den fundiertes Wissen und Erfahrung für Ihre Gesundheit machen können!",
+    "moreThan": "mehr als",
+    "patientsCount": "erfolgreich therapierte Patienten",
+    "card1Title": "Neuester wissenschaftlicher Standard",
+    "card1Desc": "Evidenzbasierte Physiotherapie mit modernsten Behandlungsmethoden",
+    "card2Title": "Erfahrene Therapeuten",
+    "card2Desc": "Umfangreiches Fachwissen und kontinuierliche Weiterbildung",
+    "card3Title": "Keine Warteliste",
+    "card3Desc": "Kurzfristige Termine auch spontan verfügbar",
+    "card4Title": "Individuelle Betreuung",
+    "card4Desc": "Maßgeschneiderte Therapie für Ihre spezifischen Bedürfnisse"
+  },
+  "availability": {
+    "badge": "Verfügbar",
+    "title": "Keine Warteliste bei uns",
+    "description": "Benötigen Sie kurzfristig einen Termin? Kein Problem! Bei uns bekommen Sie in der Regel auch spontan einen Platz. Wir freuen uns auf Ihre Anfrage – ganz bequem per Telefon, E-Mail oder direkt als Online-Anmeldung. Entdecken Sie unser vielfältiges Angebot und lassen Sie sich von unserem Service überzeugen!",
+    "bookNow": "Jetzt online buchen",
+    "call": "Anrufen",
+    "email": "E-Mail",
+    "contactOptions": "Kontaktmöglichkeiten",
+    "phone": "Telefon",
+    "onlineBooking": "Online-Buchung"
+  },
+  "openingHours": {
+    "title": "Termine & Verfügbarkeit",
+    "description": "Keine Warteliste – auch kurzfristige Termine sind bei uns möglich. Aktuell haben wir keine festen Öffnungszeiten. Vereinbaren Sie Ihren Termin flexibel online, telefonisch, per WhatsApp oder per E-Mail.",
+    "appointment": "Terminvereinbarung",
+    "flexible": "Flexibel nach Absprache",
+    "bookingOptions": "Buchungsmöglichkeiten",
+    "methods": "Online, Telefon, E-Mail, WhatsApp"
+  },
+  "quote": {
+    "title": "Was uns antreibt",
+    "text": "Unser Ziel ist es evidenzbasierte Erkenntnisse aus Wissenschaft und Forschung in die Therapie einzubinden. Dabei ist für uns wichtig eine effektive und patientenspezifische Therapie anzubieten, bei der die Patienten im Fokus stehen."
+  },
+  "expertise": {
+    "badge": "Unsere Expertise",
+    "title": "Unsere Expertise",
+    "description": "Mit langjähriger Erfahrung und kontinuierlicher Weiterbildung spezialisieren wir uns auf verschiedene Kernbereiche"
+  },
+  "services": {
+    "allgemeine-physiotherapie": {
+      "title": "Allgemeine Physiotherapie",
+      "description": "Unter allgemeiner Physiotherapie versteht man die ganzheitliche Therapie des Körpers, orientiert an den anatomischen und physiologischen Gegebenheiten. Dabei wird großer Wert auf die Individualität der konservativen und postoperativen Physiotherapie gelegt. Uns ist es wichtig, durch die Anamnese und den Befund nachzuvollziehen, wie sich Ihre Beschwerden klinisch äußern. So können wir eine maßgeschneiderte Physiotherapie durchführen. Als Team, Therapeut und Patient, können wir gemeinsam die gesetzten Ziele erreichen."
+    },
+    "geriatrie": {
+      "title": "Geriatrie",
+      "description": "In der geriatrischen Physiotherapie legen wir Wert darauf, dass unsere älteren Patienten weiterhin gesund altern können (Longevity). Durch ein adäquates Training kann die Selbstständigkeit erhalten oder verbessert werden. So kann für eine positive Lebensqualität gesorgt werden. Das Training ist auf jedes Niveau angepasst. Speziell bei Altersdiagnosen wie Demenz und Frailty-Syndrom empfehlen wir regelmäßiges Training, das wir durch die Physiotherapie auch optimal durch verschiedene standardisierte Assessments objektivieren können. Das Training besteht aus Kraftaufbau, Verbesserung des Gleichgewichts und der Gangsicherheit (mit oder ohne Hilfsmittel), Ausdauer, Dual-/Multitasking, Sturzprophylaxe, Koordinationstraining und Verbesserung der Propriozeption."
+    },
+    "pravention": {
+      "title": "Prävention",
+      "description": "Weshalb warten, bis Sie Beschwerden haben? Heutzutage ist die präventive Therapie sehr wichtig, um Longevity (definiert als gesund alt werden) zu ermöglichen. Bleiben Sie mit uns zusammen aktiv und sorgen Sie dafür, dass Sie die Pflegebedürftigkeit so lange wie möglich hinauszögeln können. Gemeinsam finden wir den besten und funktionellsten Weg, um Sie fit zu halten und weiterhin selbstständig bleiben zu können."
+    },
+    "sturzpravention": {
+      "title": "Sturzprävention",
+      "description": "Die Sturzprävention wird oft in Kombination mit der geriatrischen Physiotherapie durchgeführt. So können wir dafür sorgen, dass unsere älteren Patienten mit oder ohne Hilfsmittel (Gehstöcke, Rollator, Rollstuhl etc.) sicherer auf den Beinen sind und eine Gangsicherheit erlangen. Durch verschiedene Herausforderungen, die in die Therapie integriert werden, können schwierige Alltagssituationen simuliert und trainiert werden. Dazu gehört auch ein adäquates Krafttraining sowie Konditionsaufbau."
+    },
+    "domizilbehandlungen": {
+      "title": "Domizilbehandlungen",
+      "description": "Sind Sie verhindert, zu uns in die Praxis zu kommen? Kein Problem, wir kommen zu Ihnen nach Hause. Auch in Ihren vier Wänden kann ein adäquates, funktionelles und alltagsrelevantes Training durchgeführt werden. Dabei schauen wir, was Ihnen im Alltag Mühe macht, analysieren die Problematik, suchen gemeinsam mit Ihnen nach Lösungen und integrieren das in die Therapie.",
+      "details": {
+        "0": "Achtung: Auf der Physiotherapieverordnung muss die Domizilbehandlung angekreuzt werden, damit die Krankenkasse die Wegpauschale übernimmt."
+      }
+    },
+    "orthopadie": {
+      "title": "Orthopädie",
+      "description": "In der Orthopädie werden alle Problematiken des muskuloskelettalen Systems behandelt. Auch hier wird durch die Anamnese und Befundung die Problematik genau untersucht und analysiert. Die Behandlungen werden individuell auf Ihre Probleme angepasst durchgeführt.",
+      "details": {
+        "0": "Meniskus",
+        "1": "Arthrose in jeglichen Gelenken",
+        "2": "VKB-Ruptur / Zerrung",
+        "3": "Distorsionstrauma",
+        "4": "Muskelzerrung",
+        "5": "Diskushernie",
+        "6": "Frakturen",
+        "7": "Sehnen Problematiken der oberen und unteren Extremitäten",
+        "8": "Postoperative Behandlungen nach künstlichen Gelenken (Knie Totalprothese, Knie Teilprothese, Schultertotalprothese, inverse Schulterprothese, etc.)"
+      }
+    },
+    "chirurgie": {
+      "title": "Chirurgie",
+      "description": "Die Chirurgie ist ein weitläufiger Begriff. In diesem Fachbereich unterstützen wir die Rehabilitation von orthopädischen Eingriffen sowie den Wiederaufbau nach Eingriffen an den inneren Organen. Die verschiedenen Schemen der Operateure geben uns eine Orientierung in der Rehabilitation. Nach langzeitigen Spitalaufenthalten, wie zum Beispiel nach einer Herzoperation, legen wir Wert darauf, die Kondition wieder aufzubauen.",
+      "details": {
+        "0": "Behandlungsverlauf nach Schema (individuell nach Chirurg)",
+        "1": "Förderung der allgemeinen Kraft",
+        "2": "Förderung der Stabilität in den betroffenen Gelenken",
+        "3": "Förderung des kardio-pulmonalen Systems",
+        "4": "Förderung der Kognition (v.a. bei Delir oder Demenz-Erkrankungen)"
+      }
+    },
+    "lymphologie": {
+      "title": "Lymphologie",
+      "description": "Das Lymphsystem ist ein essenzieller Bestandteil des Immunsystems und dient der Abwehr von Krankheitserregern. Es besteht aus Lymphgefäßen, Lymphknoten, lymphatischen Organen wie der Milz, dem Thymus und den Mandeln sowie der Lymphe, einer klaren Flüssigkeit. Die Lymphe transportiert Abfallstoffe, überschüssige Gewebsflüssigkeit und Immunzellen durch den Körper. Die Lymphknoten filtern die Lymphe und helfen, Krankheitserreger zu erkennen und zu bekämpfen. Zusätzlich spielt das Lymphsystem eine wichtige Rolle beim Transport von Fetten aus dem Darm in den Blutkreislauf.\n\nIn der lymphologischen Physiotherapie wird geschaut, in welchem Bereich Ihr Problem besteht. Dazu gehören postoperative Nachbehandlungen nach Lymphknotenentfernung, nach Chemotherapie-/Bestrahlungsbehandlungen. Oft kann es nach solchen Eingriffen zu Ödemen der betroffenen Extremitäten oder des Rumpfes führen. Aber nicht nur die operativen Eingriffe können zu Ödemen führen.",
+      "details": {
+        "0": "Primäres Lymphödem",
+        "1": "Sekundäres Lymphödem",
+        "2": "Phlebödem (Veneninsuffizienz)",
+        "3": "Mischödeme",
+        "4": "Immobilisationsödeme",
+        "5": "Postoperative (zeitlich limitierte) Ödeme, z.B. nach einem orthopädischen chirurgischen Eingriff",
+        "6": "Lipödeme"
+      }
+    },
+    "innere-medizin": {
+      "title": "Innere Medizin",
+      "description": "Nach Erkrankungen, die das Organsystem betreffen, müssen viele oftmals länger im Spital bleiben, z.B. nach Herzerkrankungen oder Lungenerkrankungen etc. Viele haben dann Mühe, wieder ihren Alltag aufzunehmen. Entweder ist die Kraft stark reduziert oder das respiratorische System ist stark angeschlagen. Hier gilt es, das kardiovaskuläre System wieder zu stärken (Aufbau der Kondition) und bei Bedarf mit Atemtherapie zu ergänzen. Durch die Atemtherapie kann die Lunge wieder richtig belüftet werden und es dient als Atelektase-/Pneumonieprophylaxe (Atelektase = Verklebung der Lungenbläschen, Pneumonie = Lungenentzündung). Wir unterstützen Sie wieder bei Ihrer Genesung und legen großen Wert darauf, dass Sie Ihren Alltag wieder aufnehmen können."
+    },
+    "neurologie": {
+      "title": "Neurologie",
+      "description": "Die Neurologie ist ein sehr komplexer Fachbereich in der Physiotherapie. Wir nehmen jedoch jede Herausforderung an. Wie in allen Fachbereichen legen wir großen Wert auf die Individualität der Behandlungen.",
+      "details": {
+        "0": "Cerebrovaskulärer Insult (CVI) / Hirninfarkt / -blutung",
+        "1": "Morbus Parkinson",
+        "2": "Multiple Sklerose",
+        "3": "Demenzerkrankungen",
+        "4": "Schädel-Hirn-Trauma",
+        "5": "Polyneuropathie",
+        "6": "Ataxie",
+        "7": "Periphere neurologische Erkrankungen / Verletzungen",
+        "8": "Paraplegie / Tetraplegie"
+      }
+    },
+    "sportphysiotherapie": {
+      "title": "Sportphysiotherapie & Verletzungsprävention",
+      "description": "Oft haben Sportler ein hohes Verletzungsrisiko. Kampfsportarten, Ballsportarten, Wassersportarten, Klettern etc. benötigen die volle Leistung des Körpers. Bei Sportverletzungen sei es postoperativ oder konservativ, begleiten wir Sie vom \"Akutstadium\" bis hin zum \"Back to Competition\" durch Ihre Rehabilitation hindurch. Dabei wird auf die Langzeitprävention Wert gelegt. Was einmal passiert ist, sollte nicht nochmals vorkommen!"
+    },
+    "massage": {
+      "title": "Massage",
+      "description": "Brauchen Sie etwas Entspannung nach Ihrem stressigen Alltag oder eine Sportmassage nach einem strengen Training? Gerne können Sie für eine klassische Massage oder Sportmassage bei uns vorbeikommen. Durch unsere Anatomiekenntnisse haben wir einen großen Vorteil und können Ihre Problembereiche der Muskulatur effizienter massieren."
+    },
+    "senioren-turnen": {
+      "title": "Senioren Turnen",
+      "description": "Wollen Sie auch nach der Pension fit bleiben? Wollen Sie im Alter fit sein und so lange wie möglich Ihre Selbstständigkeit genießen? Dann melden Sie sich für unser Senioren-Turnen an! Als Physiotherapeutin werden wir das Programm so durchführen, dass alle mitmachen können. Ziel ist die Verbesserung der Kraft, des Gleichgewichts, der Koordination und der Gangsicherheit. So erhalten Sie bis ins hohe Alter Ihre Lebensqualität und sind in Ihrem Alltag flotter unterwegs."
+    },
+    "fachliche-beratung": {
+      "title": "Fachliche Beratung",
+      "description": "Haben Sie fachspezifische Fragen bezüglich der Physiotherapie oder brauchen Sie eine Beratung, ob die Physiotherapie indiziert wäre? Gerne können wir Ihr Problem gemeinsam besprechen und analysieren. Die fachliche Beratung dauert 60 Minuten. Wenn Sie sich jedoch entscheiden, bei Ihrem Arzt eine Physiotherapieverordnung (9 Behandlungen pro Verordnung) zu holen, können wir diesen Termin auch in die Behandlungsserie inkludieren. Die fachliche Beratung kann in der Praxis, telefonisch oder online stattfinden."
+    },
+    "zusatzliche-angebote": {
+      "title": "Zusätzliche Angebote",
+      "description": "Neben unseren Hauptbehandlungen bieten wir verschiedene ergänzende Therapieformen an:",
+      "details": {
+        "0": "Kinesiotaping",
+        "1": "Schröpfen",
+        "2": "Dry Needling",
+        "3": "Ultraschalltherapie",
+        "4": "Triggerpunkt Therapie",
+        "5": "Kieferbehandlung (CMD/TMG)"
+      }
+    }
+  },
+  "teamMembers": {
+    "goncagul-erol": {
+      "title": "Dipl. Physiotherapeutin FH",
+      "languages": {
+        "0": "Deutsch",
+        "1": "Englisch",
+        "2": "Türkisch"
+      },
+      "qualifications": {
+        "0": "HWS Update (ZHAW 2021)",
+        "1": "Top 30 Dry Needling (David G. Simon Academy 2021)",
+        "2": "Grundlagen Lymphsystem (2022)",
+        "3": "Zeitlich limitierte Ödeme untere Extremitäten (2022)",
+        "4": "Zeitlich limitierte Ödeme obere Extremitäten (2022)",
+        "5": "CAS KE lymphologische Physiotherapie (2023)",
+        "6": "Dry Needling Advanced Upper Body (2023)",
+        "7": "Dry Needling Advanced Lower Body (2023)",
+        "8": "Demenz und Frailty (2024)",
+        "9": "Didaktische Praxisausbildnerin (2024)",
+        "10": "CMD Basic Level 1 (CranioConcept 2025; Kieferbehandlung)",
+        "11": "CMD Advanced Level 1 (CranioConcept 2025; Kieferbehandlung)"
+      }
+    }
+  },
+  "location": {
+    "badge": "Standort",
+    "title": "Unsere Praxis & Standort",
+    "address": "Adresse",
+    "practiceName": "Physiotherapie Corpus Omnia – Kowerk",
+    "street": "Industriestrasse 24",
+    "city": "8305 Dietlikon",
+    "parking": "Parkmöglichkeiten",
+    "parkingDesc": "Parkmöglichkeiten im 1. Untergeschoss verfügbar",
+    "planRoute": "Route planen",
+    "directions": "So finden Sie uns",
+    "directionsText": "Vom Haupteingang (bei der Bushaltestelle) oder Lift West gehen Sie bitte durch das Atrium bis zum Lift Ost und folgen dann dem linken Gang bis zu unserer Praxis. Vom Lift Ost kommend, biegen Sie rechts ab und gehen den hinteren Gang entlang. Vom Hintereingang (gegenüber Dieci) halten Sie sich rechts – so finden Sie bequem zu uns. Wir freuen uns auf Ihren Besuch!",
+    "practiceImage1": "Praxis Behandlungsraum",
+    "practiceImage2": "Praxis Einrichtung",
+    "practiceImage3": "Praxis Räumlichkeiten",
+    "practiceImage4": "Trainingsausstattung"
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "title": "Kontakt",
+    "description": "Haben Sie Fragen oder möchten Sie einen Termin vereinbaren? Kontaktieren Sie uns gerne!",
+    "contactInfo": "Kontaktinformationen",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "email": "E-Mail",
+    "forDoctors": "Für Ärzte (HIN)",
+    "quickBooking": "Schnelle Terminvereinbarung",
+    "quickBookingDesc": "Buchen Sie Ihren Termin direkt online – schnell und unkompliziert!",
+    "bookNow": "Jetzt online buchen",
+    "sendMessage": "Nachricht senden",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "phoneNumber": "Telefonnummer",
+    "emailAddress": "E-Mail-Adresse",
+    "message": "Nachricht",
+    "yourMessage": "Ihre Nachricht...",
+    "send": "Senden",
+    "sending": "Wird gesendet...",
+    "successTitle": "Nachricht erfolgreich gesendet!",
+    "successDesc": "Wir werden uns so schnell wie möglich bei Ihnen melden."
+  },
+  "team": {
+    "badge": "Unser Team",
+    "title": "Unser Team",
+    "description": "Lernen Sie unser erfahrenes und qualifiziertes Team kennen",
+    "languages": "Sprachen",
+    "qualifications": "Qualifikationen & Weiterbildungen"
+  },
+  "practice": {
+    "badge": "Unsere Praxis",
+    "title": "Unsere Praxis",
+    "description": "Wir freuen uns auf Ihren Besuch bei uns",
+    "welcome": "Herzlich willkommen",
+    "welcomeText": "Vom Haupteingang (bei der Bushaltestelle) oder Lift West gehen Sie bitte durch das Atrium bis zum Lift Ost und folgen dann dem linken Gang bis zu unserer Praxis. Vom Lift Ost kommend, biegen Sie rechts ab und gehen den hinteren Gang entlang. Vom Hintereingang (gegenüber Dieci) halten Sie sich rechts – so finden Sie bequem zu uns. Wir freuen uns auf Ihren Besuch!",
+    "floorPlan": "Lageplan"
+  },
+  "footer": {
+    "description": "Evidenzbasierte Physiotherapie in Dietlikon mit Fokus auf individuelle Betreuung und neueste wissenschaftliche Standards.",
+    "quickLinks": "Schnellzugriff",
+    "contact": "Kontakt",
+    "followUs": "Folgen Sie uns",
+    "rights": "Alle Rechte vorbehalten.",
+    "agb": "AGB",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
+  },
+  "legal": {
+    "agb": {
+      "pageTitle": "AGB - Physiotherapie Corpus Omnia",
+      "metaDesc": "Allgemeine Geschäftsbedingungen der Physiotherapie Corpus Omnia",
+      "heading": "Allgemeine Geschäftsbedingungen (AGB)",
+      "intro": "Hier werden die allgemeinen Geschäftsbedingungen der Physiotherapie Corpus Omnia aufgeführt.",
+      "scope": {
+        "title": "1. Geltungsbereich",
+        "text": "Diese Allgemeinen Geschäftsbedingungen gelten für alle Dienstleistungen der Physiotherapie Corpus Omnia."
+      },
+      "appointments": {
+        "title": "2. Terminvereinbarung",
+        "text": "Termine können online, telefonisch, per WhatsApp oder per E-Mail vereinbart werden."
+      },
+      "cancellation": {
+        "title": "3. Absage und Stornierung",
+        "text": "Bei Verhinderung bitten wir um rechtzeitige Absage mindestens 24 Stunden vor dem vereinbarten Termin."
+      },
+      "payment": {
+        "title": "4. Zahlung",
+        "text": "Die Abrechnung erfolgt über die Krankenkasse. Selbstzahler werden nach jeder Behandlung in Rechnung gestellt."
+      }
+    },
+    "datenschutz": {
+      "pageTitle": "Datenschutz - Physiotherapie Corpus Omnia",
+      "metaDesc": "Datenschutzerklärung der Physiotherapie Corpus Omnia",
+      "heading": "Datenschutzerklärung",
+      "intro": "Der Schutz Ihrer Daten ist uns wichtig. Nachfolgend informieren wir Sie über die Erhebung und Verwendung Ihrer personenbezogenen Daten.",
+      "responsible": {
+        "title": "1. Verantwortliche Stelle",
+        "text": "Physiotherapie Corpus Omnia\nIndustriestrasse 24\n8305 Dietlikon\nTel: +41 76 681 70 31\nE-Mail: info@physiotherapie-corpusomnia.ch"
+      },
+      "collection": {
+        "title": "2. Erhebung und Verarbeitung personenbezogener Daten",
+        "text": "Wir erheben und verwenden Ihre personenbezogenen Daten ausschließlich im Rahmen der Behandlung und zur Erfüllung unserer vertraglichen Pflichten."
+      },
+      "sharing": {
+        "title": "3. Weitergabe von Daten",
+        "text": "Eine Weitergabe Ihrer Daten an Dritte erfolgt nur mit Ihrer ausdrücklichen Einwilligung oder wenn wir gesetzlich dazu verpflichtet sind."
+      },
+      "rights": {
+        "title": "4. Ihre Rechte",
+        "text": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten."
+      }
+    },
+    "impressum": {
+      "pageTitle": "Impressum - Physiotherapie Corpus Omnia",
+      "metaDesc": "Impressum der Physiotherapie Corpus Omnia",
+      "heading": "Impressum",
+      "legalInfo": "Angaben gemäss Schweizer Recht",
+      "practice": "Praxis",
+      "practiceAddress": "Physiotherapie Corpus Omnia\nIndustriestrasse 24\n8305 Dietlikon\nSchweiz",
+      "contactTitle": "Kontakt",
+      "contactInfo": "Telefon: +41 76 681 70 31\nE-Mail: info@physiotherapie-corpusomnia.ch\nWebsite: physiotherapie-corpusomnia.ch",
+      "representative": "Vertretungsberechtigte Person",
+      "representativeInfo": "Goncagül Erol\nDipl. Physiotherapeutin FH",
+      "jobTitle": "Berufsbezeichnung",
+      "jobTitleInfo": "Dipl. Physiotherapeutin FH (verliehen in der Schweiz)",
+      "authority": "Aufsichtsbehörde",
+      "authorityInfo": "Gesundheitsdirektion des Kantons Zürich",
+      "disclaimer": "Haftungsausschluss",
+      "disclaimerText1": "Der Autor übernimmt keinerlei Gewähr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen.",
+      "disclaimerText2": "Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen."
+    }
+  }
+}

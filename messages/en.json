@@ -1,0 +1,328 @@
+{
+  "nav": {
+    "openingHours": "Opening Hours",
+    "expertise": "Expertise",
+    "location": "Location",
+    "contact": "Contact",
+    "team": "Team",
+    "practice": "Practice",
+    "bookOnline": "Book Appointment Online"
+  },
+  "hero": {
+    "title": "Physiotherapy",
+    "titleHighlight": "Corpus Omnia",
+    "subtitle": "Evidence-based physiotherapy according to the latest scientific standards. Professional care by experienced therapists in Dietlikon.",
+    "bookAppointment": "Book Appointment Online",
+    "contactUs": "Contact Us",
+    "insuranceText": "Recognized by all health insurance companies"
+  },
+  "benefits": {
+    "badge": "Your Benefits",
+    "title": "Your Benefits with Us",
+    "description": "With us, you benefit from physiotherapy according to the very latest scientific standards. Trust our experienced therapists who take excellent care of you with their extensive expertise. Experience the difference that sound knowledge and experience can make for your health!",
+    "moreThan": "more than",
+    "patientsCount": "successfully treated patients",
+    "card1Title": "Latest Scientific Standards",
+    "card1Desc": "Evidence-based physiotherapy with modern treatment methods",
+    "card2Title": "Experienced Therapists",
+    "card2Desc": "Extensive expertise and continuous professional development",
+    "card3Title": "No Waiting List",
+    "card3Desc": "Short-term appointments also available spontaneously",
+    "card4Title": "Individual Care",
+    "card4Desc": "Customized therapy for your specific needs"
+  },
+  "availability": {
+    "badge": "Available",
+    "title": "No Waiting List with Us",
+    "description": "Do you need an appointment at short notice? No problem! With us, you usually get a place spontaneously. We look forward to your inquiry – conveniently by phone, email, or directly as an online registration. Discover our diverse range of services and let us convince you with our service!",
+    "bookNow": "Book online now",
+    "call": "Call",
+    "email": "Email",
+    "contactOptions": "Contact Options",
+    "phone": "Phone",
+    "onlineBooking": "Online Booking"
+  },
+  "openingHours": {
+    "title": "Appointments & Availability",
+    "description": "No waiting list – even short-notice appointments are possible with us. We currently have no fixed opening hours. Schedule your appointment flexibly online, by phone, via WhatsApp, or by email.",
+    "appointment": "Appointment Scheduling",
+    "flexible": "Flexible by arrangement",
+    "bookingOptions": "Booking Options",
+    "methods": "Online, Phone, Email, WhatsApp"
+  },
+  "quote": {
+    "title": "What Drives Us",
+    "text": "Our goal is to incorporate evidence-based findings from science and research into therapy. It is important to us to offer effective and patient-specific therapy where patients are the focus."
+  },
+  "expertise": {
+    "badge": "Our Expertise",
+    "title": "Our Expertise",
+    "description": "With many years of experience and continuous training, we specialize in various core areas"
+  },
+  "services": {
+    "allgemeine-physiotherapie": {
+      "title": "General Physiotherapy",
+      "description": "General physiotherapy refers to the holistic therapy of the body, oriented to anatomical and physiological conditions. Great emphasis is placed on the individuality of conservative and postoperative physiotherapy. It is important to us to understand through medical history and examination how your symptoms manifest clinically. This allows us to carry out customized physiotherapy. As a team – therapist and patient – we can achieve the set goals together."
+    },
+    "geriatrie": {
+      "title": "Geriatrics",
+      "description": "In geriatric physiotherapy, we value ensuring that our elderly patients can continue to age healthily (longevity). Through adequate training, independence can be maintained or improved, ensuring a positive quality of life. Training is adapted to every level. Especially for age-related diagnoses such as dementia and frailty syndrome, we recommend regular training, which we can optimally objectify through various standardized assessments. Training consists of strength building, improvement of balance and gait stability (with or without aids), endurance, dual/multitasking, fall prevention, coordination training, and improvement of proprioception."
+    },
+    "pravention": {
+      "title": "Prevention",
+      "description": "Why wait until you have symptoms? Nowadays, preventive therapy is very important to enable longevity (defined as aging healthily). Stay active with us and ensure that you can postpone the need for care as long as possible. Together we will find the best and most functional way to keep you fit and maintain your independence."
+    },
+    "sturzpravention": {
+      "title": "Fall Prevention",
+      "description": "Fall prevention is often carried out in combination with geriatric physiotherapy. This ensures that our elderly patients are more secure on their feet with or without aids (walking sticks, walker, wheelchair, etc.) and achieve gait stability. Through various challenges integrated into the therapy, difficult everyday situations can be simulated and practiced. This also includes adequate strength training and endurance building."
+    },
+    "domizilbehandlungen": {
+      "title": "Home Treatments",
+      "description": "Are you unable to come to our practice? No problem, we come to you at home. Adequate, functional, and everyday-relevant training can also be carried out within your own four walls. We look at what gives you difficulty in everyday life, analyze the problem, work together with you to find solutions, and integrate them into the therapy.",
+      "details": {
+        "0": "Note: Home treatment must be checked on the physiotherapy prescription so that the health insurance covers the travel allowance."
+      }
+    },
+    "orthopadie": {
+      "title": "Orthopedics",
+      "description": "In orthopedics, all problems of the musculoskeletal system are treated. Here too, the problem is precisely examined and analyzed through medical history and assessment. Treatments are individually tailored to your specific problems.",
+      "details": {
+        "0": "Meniscus",
+        "1": "Arthritis in all joints",
+        "2": "ACL rupture / strain",
+        "3": "Sprain trauma",
+        "4": "Muscle strain",
+        "5": "Disc herniation",
+        "6": "Fractures",
+        "7": "Tendon problems of the upper and lower extremities",
+        "8": "Postoperative treatments after artificial joints (total knee replacement, partial knee replacement, total shoulder replacement, reverse shoulder replacement, etc.)"
+      }
+    },
+    "chirurgie": {
+      "title": "Surgery",
+      "description": "Surgery is a broad term. In this specialty, we support the rehabilitation of orthopedic procedures as well as recovery after procedures on internal organs. The various protocols from surgeons guide us in rehabilitation. After prolonged hospital stays, such as after heart surgery, we focus on rebuilding fitness.",
+      "details": {
+        "0": "Treatment course according to protocol (individual per surgeon)",
+        "1": "Promotion of general strength",
+        "2": "Promotion of stability in affected joints",
+        "3": "Promotion of the cardio-pulmonary system",
+        "4": "Promotion of cognition (especially in delirium or dementia conditions)"
+      }
+    },
+    "lymphologie": {
+      "title": "Lymphology",
+      "description": "The lymphatic system is an essential part of the immune system and serves to defend against pathogens. It consists of lymph vessels, lymph nodes, lymphatic organs such as the spleen, thymus, and tonsils, as well as lymph, a clear fluid. Lymph transports waste products, excess tissue fluid, and immune cells through the body. Lymph nodes filter the lymph and help to detect and combat pathogens. Additionally, the lymphatic system plays an important role in transporting fats from the intestine into the bloodstream.\n\nIn lymphological physiotherapy, we examine where your problem lies. This includes postoperative follow-up treatments after lymph node removal, after chemotherapy/radiation treatments. Often, such procedures can lead to edema of the affected extremities or trunk. But it is not only surgical procedures that can lead to edema.",
+      "details": {
+        "0": "Primary lymphedema",
+        "1": "Secondary lymphedema",
+        "2": "Phlebedema (venous insufficiency)",
+        "3": "Mixed edema",
+        "4": "Immobilization edema",
+        "5": "Postoperative (time-limited) edema, e.g., after an orthopedic surgical procedure",
+        "6": "Lipedema"
+      }
+    },
+    "innere-medizin": {
+      "title": "Internal Medicine",
+      "description": "After illnesses affecting the organ system, many patients often have to stay longer in hospital, e.g., after heart diseases or lung diseases. Many then have difficulty resuming their daily lives. Either strength is greatly reduced or the respiratory system is severely compromised. The goal is to strengthen the cardiovascular system again (building endurance) and supplement with respiratory therapy as needed. Through respiratory therapy, the lungs can be properly ventilated again, and it serves as atelectasis/pneumonia prophylaxis (atelectasis = adhesion of alveoli, pneumonia = lung inflammation). We support you in your recovery and place great importance on helping you resume your daily life."
+    },
+    "neurologie": {
+      "title": "Neurology",
+      "description": "Neurology is a very complex specialty in physiotherapy. However, we accept every challenge. As in all specialties, we place great emphasis on the individuality of treatments.",
+      "details": {
+        "0": "Cerebrovascular accident (CVA) / brain infarction / hemorrhage",
+        "1": "Parkinson's disease",
+        "2": "Multiple sclerosis",
+        "3": "Dementia conditions",
+        "4": "Traumatic brain injury",
+        "5": "Polyneuropathy",
+        "6": "Ataxia",
+        "7": "Peripheral neurological diseases / injuries",
+        "8": "Paraplegia / tetraplegia"
+      }
+    },
+    "sportphysiotherapie": {
+      "title": "Sports Physiotherapy & Injury Prevention",
+      "description": "Athletes often have a high risk of injury. Combat sports, ball sports, water sports, climbing, etc. require the full performance of the body. For sports injuries, whether postoperative or conservative, we accompany you from the \"acute stage\" to \"back to competition\" throughout your rehabilitation. Emphasis is placed on long-term prevention. What happened once should not happen again!"
+    },
+    "massage": {
+      "title": "Massage",
+      "description": "Do you need some relaxation after your stressful day or a sports massage after an intense training session? You are welcome to come to us for a classic massage or sports massage. With our knowledge of anatomy, we have a great advantage and can massage your problem areas more efficiently."
+    },
+    "senioren-turnen": {
+      "title": "Senior Exercise Classes",
+      "description": "Do you want to stay fit even after retirement? Do you want to be fit in old age and enjoy your independence for as long as possible? Then sign up for our senior exercise classes! As a physiotherapist, we will design the program so that everyone can participate. The goal is to improve strength, balance, coordination, and gait stability. This way, you maintain your quality of life well into old age and are more agile in your daily routine."
+    },
+    "fachliche-beratung": {
+      "title": "Professional Consultation",
+      "description": "Do you have specific questions about physiotherapy or need advice on whether physiotherapy would be indicated? We are happy to discuss and analyze your problem together. The professional consultation lasts 60 minutes. However, if you decide to obtain a physiotherapy prescription from your doctor (9 treatments per prescription), we can include this appointment in the treatment series. The professional consultation can take place at the practice, by phone, or online."
+    },
+    "zusatzliche-angebote": {
+      "title": "Additional Services",
+      "description": "In addition to our main treatments, we offer various complementary therapy forms:",
+      "details": {
+        "0": "Kinesiotaping",
+        "1": "Cupping",
+        "2": "Dry Needling",
+        "3": "Ultrasound therapy",
+        "4": "Trigger point therapy",
+        "5": "Jaw treatment (TMD/TMJ)"
+      }
+    }
+  },
+  "teamMembers": {
+    "goncagul-erol": {
+      "title": "Certified Physiotherapist (BSc)",
+      "languages": {
+        "0": "German",
+        "1": "English",
+        "2": "Turkish"
+      },
+      "qualifications": {
+        "0": "Cervical Spine Update (ZHAW 2021)",
+        "1": "Top 30 Dry Needling (David G. Simon Academy 2021)",
+        "2": "Lymphatic System Fundamentals (2022)",
+        "3": "Time-limited Edema Lower Extremities (2022)",
+        "4": "Time-limited Edema Upper Extremities (2022)",
+        "5": "CAS Advanced Lymphological Physiotherapy (2023)",
+        "6": "Dry Needling Advanced Upper Body (2023)",
+        "7": "Dry Needling Advanced Lower Body (2023)",
+        "8": "Dementia and Frailty (2024)",
+        "9": "Didactic Clinical Instructor (2024)",
+        "10": "TMD Basic Level 1 (CranioConcept 2025; Jaw Treatment)",
+        "11": "TMD Advanced Level 1 (CranioConcept 2025; Jaw Treatment)"
+      }
+    }
+  },
+  "location": {
+    "badge": "Location",
+    "title": "Our Practice & Location",
+    "address": "Address",
+    "practiceName": "Physiotherapy Corpus Omnia – Kowerk",
+    "street": "Industriestrasse 24",
+    "city": "8305 Dietlikon",
+    "parking": "Parking",
+    "parkingDesc": "Parking available on the 1st basement level",
+    "planRoute": "Plan Route",
+    "directions": "How to Find Us",
+    "directionsText": "From the main entrance (at the bus stop) or West elevator, please go through the atrium to the East elevator and then follow the left corridor to our practice. Coming from the East elevator, turn right and walk along the back corridor. From the rear entrance (opposite Dieci), keep right – this way you'll easily find us. We look forward to your visit!",
+    "practiceImage1": "Practice treatment room",
+    "practiceImage2": "Practice interior",
+    "practiceImage3": "Practice facilities",
+    "practiceImage4": "Training equipment"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Contact",
+    "description": "Do you have questions or would you like to make an appointment? Feel free to contact us!",
+    "contactInfo": "Contact Information",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "forDoctors": "For Doctors (HIN)",
+    "quickBooking": "Quick Appointment Booking",
+    "quickBookingDesc": "Book your appointment directly online – fast and easy!",
+    "bookNow": "Book now online",
+    "sendMessage": "Send Message",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phoneNumber": "Phone Number",
+    "emailAddress": "Email Address",
+    "message": "Message",
+    "yourMessage": "Your message...",
+    "send": "Send",
+    "sending": "Sending...",
+    "successTitle": "Message sent successfully!",
+    "successDesc": "We will get back to you as soon as possible."
+  },
+  "team": {
+    "badge": "Our Team",
+    "title": "Our Team",
+    "description": "Meet our experienced and qualified team",
+    "languages": "Languages",
+    "qualifications": "Qualifications & Training"
+  },
+  "practice": {
+    "badge": "Our Practice",
+    "title": "Our Practice",
+    "description": "We look forward to your visit",
+    "welcome": "Welcome",
+    "welcomeText": "From the main entrance (at the bus stop) or West elevator, please go through the atrium to the East elevator and then follow the left corridor to our practice. Coming from the East elevator, turn right and walk along the back corridor. From the rear entrance (opposite Dieci), keep right – this way you'll easily find us. We look forward to your visit!",
+    "floorPlan": "Floor Plan"
+  },
+  "footer": {
+    "description": "Evidence-based physiotherapy in Dietlikon with a focus on individual care and the latest scientific standards.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "agb": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
+  },
+  "legal": {
+    "agb": {
+      "pageTitle": "Terms & Conditions - Physiotherapy Corpus Omnia",
+      "metaDesc": "Terms and conditions of Physiotherapy Corpus Omnia",
+      "heading": "General Terms and Conditions",
+      "intro": "Here are the general terms and conditions of Physiotherapy Corpus Omnia.",
+      "scope": {
+        "title": "1. Scope of Application",
+        "text": "These general terms and conditions apply to all services of Physiotherapy Corpus Omnia."
+      },
+      "appointments": {
+        "title": "2. Appointment Scheduling",
+        "text": "Appointments can be made online, by phone, via WhatsApp, or by email."
+      },
+      "cancellation": {
+        "title": "3. Cancellation",
+        "text": "In case of inability to attend, we ask for timely cancellation at least 24 hours before the scheduled appointment."
+      },
+      "payment": {
+        "title": "4. Payment",
+        "text": "Billing is processed through the health insurance. Self-payers are invoiced after each treatment."
+      }
+    },
+    "datenschutz": {
+      "pageTitle": "Privacy Policy - Physiotherapy Corpus Omnia",
+      "metaDesc": "Privacy policy of Physiotherapy Corpus Omnia",
+      "heading": "Privacy Policy",
+      "intro": "The protection of your data is important to us. Below we inform you about the collection and use of your personal data.",
+      "responsible": {
+        "title": "1. Responsible Party",
+        "text": "Physiotherapy Corpus Omnia\nIndustriestrasse 24\n8305 Dietlikon\nPhone: +41 76 681 70 31\nEmail: info@physiotherapie-corpusomnia.ch"
+      },
+      "collection": {
+        "title": "2. Collection and Processing of Personal Data",
+        "text": "We collect and use your personal data exclusively within the scope of treatment and to fulfill our contractual obligations."
+      },
+      "sharing": {
+        "title": "3. Data Sharing",
+        "text": "Your data will only be shared with third parties with your explicit consent or if we are legally obligated to do so."
+      },
+      "rights": {
+        "title": "4. Your Rights",
+        "text": "You have the right to information, correction, deletion, and restriction of the processing of your personal data."
+      }
+    },
+    "impressum": {
+      "pageTitle": "Imprint - Physiotherapy Corpus Omnia",
+      "metaDesc": "Imprint of Physiotherapy Corpus Omnia",
+      "heading": "Imprint",
+      "legalInfo": "Information according to Swiss law",
+      "practice": "Practice",
+      "practiceAddress": "Physiotherapy Corpus Omnia\nIndustriestrasse 24\n8305 Dietlikon\nSwitzerland",
+      "contactTitle": "Contact",
+      "contactInfo": "Phone: +41 76 681 70 31\nEmail: info@physiotherapie-corpusomnia.ch\nWebsite: physiotherapie-corpusomnia.ch",
+      "representative": "Authorized Representative",
+      "representativeInfo": "Goncagül Erol\nCertified Physiotherapist (BSc)",
+      "jobTitle": "Professional Title",
+      "jobTitleInfo": "Certified Physiotherapist (BSc) (awarded in Switzerland)",
+      "authority": "Supervisory Authority",
+      "authorityInfo": "Health Directorate of the Canton of Zurich",
+      "disclaimer": "Disclaimer",
+      "disclaimerText1": "The author assumes no guarantee regarding the accuracy, correctness, timeliness, reliability, and completeness of the information.",
+      "disclaimerText2": "Liability claims against the author for material or immaterial damages arising from access to or use or non-use of the published information, from misuse of the connection, or from technical malfunctions are excluded."
+    }
+  }
+}

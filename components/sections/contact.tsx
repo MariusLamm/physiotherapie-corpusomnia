@@ -1,0 +1,184 @@
+"use client";
+
+import { useState } from "react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
+import { Phone, Mail, MessageSquare } from "lucide-react";
+import { toast } from "sonner";
+import { useTranslations } from "next-intl";
+
+export function Contact() {
+  const t = useTranslations("contact");
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    // Simulate form submission
+    await new Promise((resolve) => setTimeout(resolve, 1500));
+
+    toast.success(t("successTitle"), {
+      description: t("successDesc"),
+    });
+
+    setIsSubmitting(false);
+    (e.target as HTMLFormElement).reset();
+  };
+
+  return (
+    <section id="kontakt" className="py-12 md:py-16 bg-muted/50 scroll-mt-20">
+      <div className="container mx-auto px-4">
+        <motion.div
+          ref={ref}
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.6 }}
+          className="space-y-8"
+        >
+          <div className="text-center space-y-4">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">{t("title")}</h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              {t("description")}
+            </p>
+          </div>
+
+          <div className="grid gap-6 lg:grid-cols-2 max-w-6xl mx-auto">
+            {/* Contact Information */}
+            <div>
+              <Card className="h-full">
+                <CardHeader>
+                  <CardTitle>{t("contactInfo")}</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Phone className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <p className="font-medium mb-1">{t("phone")}</p>
+                      <a
+                        href="tel:+41766817031"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        +41 76 681 70 31
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <MessageSquare className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <p className="font-medium mb-1">{t("whatsapp")}</p>
+                      <a
+                        href="https://wa.me/41766817031"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        +41 76 681 70 31
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                      <Mail className="w-5 h-5 text-primary" />
+                    </div>
+                    <div className="space-y-2">
+                      <div>
+                        <p className="font-medium mb-1">{t("email")}</p>
+                        <a
+                          href="mailto:info@physiotherapie-corpusomnia.ch"
+                          className="text-muted-foreground hover:text-primary transition-colors break-all"
+                        >
+                          info@physiotherapie-corpusomnia.ch
+                        </a>
+                      </div>
+                      <div>
+                        <p className="font-medium mb-1">{t("forDoctors")}</p>
+                        <a
+                          href="mailto:physiotherapie-corpusomnia@physio-hin.ch"
+                          className="text-muted-foreground hover:text-primary transition-colors break-all"
+                        >
+                          physiotherapie-corpusomnia@physio-hin.ch
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+
+            </div>
+
+            {/* Contact Form */}
+            <Card className="h-full">
+              <CardHeader>
+                <CardTitle>{t("sendMessage")}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  <div className="grid gap-4 sm:grid-cols-2">
+                    <div className="space-y-2">
+                      <Label htmlFor="firstName">{t("firstName")} *</Label>
+                      <Input id="firstName" required placeholder="Max" />
+                    </div>
+                    <div className="space-y-2">
+                      <Label htmlFor="lastName">{t("lastName")} *</Label>
+                      <Input id="lastName" required placeholder="Mustermann" />
+                    </div>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="phone">{t("phoneNumber")} *</Label>
+                    <Input
+                      id="phone"
+                      type="tel"
+                      required
+                      placeholder="+41 XX XXX XX XX"
+                    />
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="email">{t("emailAddress")} *</Label>
+                    <Input
+                      id="email"
+                      type="email"
+                      required
+                      placeholder="max.mustermann@example.com"
+                    />
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label htmlFor="message">{t("message")} *</Label>
+                    <Textarea
+                      id="message"
+                      required
+                      placeholder={t("yourMessage")}
+                      rows={5}
+                    />
+                  </div>
+
+                  <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
+                    {isSubmitting ? t("sending") : t("send")}
+                  </Button>
+                </form>
+              </CardContent>
+            </Card>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
