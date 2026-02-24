@@ -23,15 +23,39 @@ export function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    const form = e.target as HTMLFormElement;
+    const formData = new FormData(form);
 
-    toast.success(t("successTitle"), {
-      description: t("successDesc"),
-    });
+    const data = {
+      firstName: formData.get("firstName") as string,
+      lastName: formData.get("lastName") as string,
+      phone: formData.get("phone") as string,
+      email: formData.get("email") as string,
+      message: formData.get("message") as string,
+    };
 
-    setIsSubmitting(false);
-    (e.target as HTMLFormElement).reset();
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to send");
+      }
+
+      toast.success(t("successTitle"), {
+        description: t("successDesc"),
+      });
+      form.reset();
+    } catch {
+      toast.error(t("errorTitle"), {
+        description: t("errorDesc"),
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -132,11 +156,11 @@ export function Contact() {
                   <div className="grid gap-4 sm:grid-cols-2">
                     <div className="space-y-2">
                       <Label htmlFor="firstName">{t("firstName")} *</Label>
-                      <Input id="firstName" required placeholder="Max" />
+                      <Input id="firstName" name="firstName" required placeholder="Max" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="lastName">{t("lastName")} *</Label>
-                      <Input id="lastName" required placeholder="Mustermann" />
+                      <Input id="lastName" name="lastName" required placeholder="Mustermann" />
                     </div>
                   </div>
 
@@ -144,6 +168,7 @@ export function Contact() {
                     <Label htmlFor="phone">{t("phoneNumber")} *</Label>
                     <Input
                       id="phone"
+                      name="phone"
                       type="tel"
                       required
                       placeholder="+41 XX XXX XX XX"
@@ -154,6 +179,7 @@ export function Contact() {
                     <Label htmlFor="email">{t("emailAddress")} *</Label>
                     <Input
                       id="email"
+                      name="email"
                       type="email"
                       required
                       placeholder="max.mustermann@example.com"
@@ -164,6 +190,7 @@ export function Contact() {
                     <Label htmlFor="message">{t("message")} *</Label>
                     <Textarea
                       id="message"
+                      name="message"
                       required
                       placeholder={t("yourMessage")}
                       rows={5}

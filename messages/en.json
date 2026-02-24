@@ -233,7 +233,9 @@
     "send": "Send",
     "sending": "Sending...",
     "successTitle": "Message sent successfully!",
-    "successDesc": "We will get back to you as soon as possible."
+    "successDesc": "We will get back to you as soon as possible.",
+    "errorTitle": "Failed to send",
+    "errorDesc": "Your message could not be sent. Please try again or contact us by phone."
   },
   "team": {
     "badge": "Our Team",

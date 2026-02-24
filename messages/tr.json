@@ -233,7 +233,9 @@
     "send": "Gönder",
     "sending": "Gönderiliyor...",
     "successTitle": "Mesaj başarıyla gönderildi!",
-    "successDesc": "En kısa sürede size geri döneceğiz."
+    "successDesc": "En kısa sürede size geri döneceğiz.",
+    "errorTitle": "Gönderme hatası",
+    "errorDesc": "Mesajınız gönderilemedi. Lütfen tekrar deneyin veya bizi telefonla arayın."
   },
   "team": {
     "badge": "Ekibimiz",
