@@ -17,7 +17,11 @@ const languages = [
   { code: "tr", name: "Türkçe", flag: "🇹🇷" },
 ];
 
-export function LanguageSwitcher() {
+interface LanguageSwitcherProps {
+  onBeforeSwitch?: () => Promise<void> | void;
+}
+
+export function LanguageSwitcher({ onBeforeSwitch }: LanguageSwitcherProps = {}) {
   const router = useRouter();
   const pathname = usePathname();
   const params = useParams();
@@ -25,7 +29,12 @@ export function LanguageSwitcher() {
   const currentLocale = (params?.locale as string) || "de";
   const currentLanguage = languages.find((lang) => lang.code === currentLocale) || languages[0];
 
-  const switchLanguage = (locale: string) => {
+  const switchLanguage = async (locale: string) => {
+    // If a callback is provided (e.g. to close the mobile Sheet), run it first
+    if (onBeforeSwitch) {
+      await onBeforeSwitch();
+    }
+
     // Remove the current locale from the pathname
     const pathnameWithoutLocale = pathname?.replace(`/${currentLocale}`, "") || "";
     

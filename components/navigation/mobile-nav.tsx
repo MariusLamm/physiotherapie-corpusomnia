@@ -45,6 +45,16 @@ export function MobileNav({
 }: MobileNavProps) {
   const t = useTranslations("nav");
 
+  // Close the Sheet before language switch navigation to prevent
+  // Radix UI Dialog from leaving stale overlay/scroll-lock state
+  const handleBeforeLanguageSwitch = () => {
+    return new Promise<void>((resolve) => {
+      onOpenChange(false);
+      // Wait for the Sheet close animation (300ms) + buffer
+      setTimeout(resolve, 400);
+    });
+  };
+
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
       <SheetContent
@@ -114,7 +124,7 @@ export function MobileNav({
               {t("practice")}
             </span>
             <div className="flex items-center gap-1">
-              <LanguageSwitcher />
+              <LanguageSwitcher onBeforeSwitch={handleBeforeLanguageSwitch} />
               <ThemeToggle />
             </div>
           </div>

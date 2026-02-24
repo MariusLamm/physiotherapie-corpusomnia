@@ -28,6 +28,18 @@ export function Navbar() {
   // Check if we're on the main page (path is just /<locale> or /<locale>/)
   const isMainPage = /^\/[a-z]{2}\/?$/.test(pathname);
 
+  // Safety net: close the mobile menu on route changes and clean up
+  // any stale Radix UI scroll-lock left on <body> after navigation
+  React.useEffect(() => {
+    setMobileMenuOpen(false);
+
+    // Radix UI Dialog adds data-scroll-locked and overflow:hidden to <body>.
+    // If the Sheet was open during a client-side navigation, these can persist.
+    document.body.style.removeProperty("overflow");
+    document.body.style.removeProperty("pointer-events");
+    document.body.removeAttribute("data-scroll-locked");
+  }, [pathname]);
+
   React.useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
