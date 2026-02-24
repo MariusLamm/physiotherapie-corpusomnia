@@ -29,15 +29,33 @@ export function Navbar() {
   const isMainPage = /^\/[a-z]{2}\/?$/.test(pathname);
 
   // Safety net: close the mobile menu on route changes and clean up
-  // any stale Radix UI scroll-lock left on <body> after navigation
+  // any stale Radix UI state left on <body> after client-side navigation.
+  // Radix UI's DismissableLayer, react-remove-scroll, and aria-hidden
+  // all modify <body> and may not clean up reliably during navigation.
   React.useEffect(() => {
     setMobileMenuOpen(false);
 
-    // Radix UI Dialog adds data-scroll-locked and overflow:hidden to <body>.
-    // If the Sheet was open during a client-side navigation, these can persist.
+    // 1. DismissableLayer inline styles
     document.body.style.removeProperty("overflow");
     document.body.style.removeProperty("pointer-events");
+
+    // 2. react-remove-scroll-bar attribute
     document.body.removeAttribute("data-scroll-locked");
+
+    // 3. react-remove-scroll CSS classes (block-interactivity-{id})
+    //    These apply pointer-events: none via injected <style> tags
+    document.body.classList.forEach((cls) => {
+      if (cls.startsWith("block-interactivity-")) {
+        document.body.classList.remove(cls);
+      }
+    });
+
+    // 4. Remove stale aria-hidden attributes from direct children of body
+    //    (set by aria-hidden library when Dialog/Menu modal content was open)
+    document.querySelectorAll("body > [data-aria-hidden]").forEach((el) => {
+      el.removeAttribute("aria-hidden");
+      el.removeAttribute("data-aria-hidden");
+    });
   }, [pathname]);
 
   React.useEffect(() => {
