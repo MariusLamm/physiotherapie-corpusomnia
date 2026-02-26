@@ -302,8 +302,16 @@
         "title": "3. Veri Paylaşımı",
         "text": "Verileriniz yalnızca açık onayınızla veya yasal olarak zorunlu olduğumuz durumlarda üçüncü taraflarla paylaşılır."
       },
+      "contactForm": {
+        "title": "4. İletişim Formu",
+        "text": "İletişim formumuzu kullandığınızda, bilgileriniz (ad, soyad, telefon numarası, e-posta adresi ve mesaj) talebinizi işlemek için bize e-posta ile iletilir. E-posta gönderimi için Resend (Resend, Inc., ABD) hizmetini kullanıyoruz. Verileriniz Resend sunucularında işlenmektedir. Daha fazla bilgi için Resend'in gizlilik politikasına bakınız: https://resend.com/legal/privacy-policy. İşleme, formu göndererek verdiğiniz onaya dayanmaktadır."
+      },
+      "maps": {
+        "title": "5. Google Maps",
+        "text": "Web sitemizde konumumuzu göstermek için Google Maps kullanıyoruz. Harita yüklendiğinde, veriler (IP adresiniz dahil) Google LLC, ABD'ye iletilir. Google'ın gizlilik politikası geçerlidir: https://policies.google.com/privacy"
+      },
       "rights": {
-        "title": "4. Haklarınız",
+        "title": "6. Haklarınız",
         "text": "Kişisel verilerinizin bilgilendirilmesi, düzeltilmesi, silinmesi ve işlenmesinin kısıtlanması hakkına sahipsiniz."
       }
     },

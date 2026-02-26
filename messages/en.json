@@ -302,8 +302,16 @@
         "title": "3. Data Sharing",
         "text": "Your data will only be shared with third parties with your explicit consent or if we are legally obligated to do so."
       },
+      "contactForm": {
+        "title": "4. Contact Form",
+        "text": "When you use our contact form, your details (first name, last name, phone number, email address, and message) are sent to us by email to process your inquiry. We use the service Resend (Resend, Inc., USA) for email delivery. Your data is processed on Resend's servers. For more information, see Resend's privacy policy at https://resend.com/legal/privacy-policy. Processing is based on your consent given by submitting the form."
+      },
+      "maps": {
+        "title": "5. Google Maps",
+        "text": "We use Google Maps on our website to display our location. When the map is loaded, data (including your IP address) is transmitted to Google LLC, USA. Google's privacy policy applies: https://policies.google.com/privacy"
+      },
       "rights": {
-        "title": "4. Your Rights",
+        "title": "6. Your Rights",
         "text": "You have the right to information, correction, deletion, and restriction of the processing of your personal data."
       }
     },

@@ -32,6 +32,7 @@ export function Contact() {
       phone: formData.get("phone") as string,
       email: formData.get("email") as string,
       message: formData.get("message") as string,
+      website: formData.get("website") as string, // honeypot
     };
 
     try {
@@ -153,6 +154,10 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-4">
+                  {/* Honeypot field: hidden from users, bots fill it and get rejected */}
+                  <div className="absolute opacity-0 -z-10" aria-hidden="true" tabIndex={-1}>
+                    <input type="text" name="website" tabIndex={-1} autoComplete="off" />
+                  </div>
                   <div className="grid gap-4 sm:grid-cols-2">
                     <div className="space-y-2">
                       <Label htmlFor="firstName">{t("firstName")} *</Label>

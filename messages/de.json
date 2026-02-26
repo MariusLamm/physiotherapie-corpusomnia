@@ -302,8 +302,16 @@
         "title": "3. Weitergabe von Daten",
         "text": "Eine Weitergabe Ihrer Daten an Dritte erfolgt nur mit Ihrer ausdrücklichen Einwilligung oder wenn wir gesetzlich dazu verpflichtet sind."
       },
+      "contactForm": {
+        "title": "4. Kontaktformular",
+        "text": "Wenn Sie unser Kontaktformular nutzen, werden Ihre Angaben (Vorname, Nachname, Telefonnummer, E-Mail-Adresse und Nachricht) zur Bearbeitung Ihrer Anfrage per E-Mail an uns übermittelt. Für den E-Mail-Versand nutzen wir den Dienst Resend (Resend, Inc., USA). Ihre Daten werden dabei auf Servern von Resend verarbeitet. Weitere Informationen finden Sie in der Datenschutzerklärung von Resend unter https://resend.com/legal/privacy-policy. Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung durch das Absenden des Formulars."
+      },
+      "maps": {
+        "title": "5. Google Maps",
+        "text": "Auf unserer Website verwenden wir Google Maps zur Darstellung unseres Standorts. Beim Laden der Karte werden Daten (u.a. Ihre IP-Adresse) an Google LLC, USA, übermittelt. Es gelten die Datenschutzbestimmungen von Google: https://policies.google.com/privacy"
+      },
       "rights": {
-        "title": "4. Ihre Rechte",
+        "title": "6. Ihre Rechte",
         "text": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung Ihrer personenbezogenen Daten."
       }
     },

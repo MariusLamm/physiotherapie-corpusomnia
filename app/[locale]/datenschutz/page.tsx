@@ -38,6 +38,12 @@ export default async function DatenschutzPage() {
               <h2>{t("sharing.title")}</h2>
               <p>{t("sharing.text")}</p>
 
+              <h2>{t("contactForm.title")}</h2>
+              <p>{t("contactForm.text")}</p>
+
+              <h2>{t("maps.title")}</h2>
+              <p>{t("maps.text")}</p>
+
               <h2>{t("rights.title")}</h2>
               <p>{t("rights.text")}</p>
             </CardContent>
