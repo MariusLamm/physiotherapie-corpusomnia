@@ -13,9 +13,18 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Physiotherapie Corpus Omnia",
+  metadataBase: new URL("https://physiotherapie-corpusomnia.ch"),
+  title: {
+    template: "%s | Physiotherapie Corpus Omnia",
+    default: "Physiotherapie Corpus Omnia – Physiotherapie in Dietlikon (Zürich)",
+  },
   description: "Professionelle Physiotherapie in Dietlikon - Evidenzbasierte Behandlung mit langjähriger Erfahrung",
-  keywords: ["Physiotherapie", "Dietlikon", "Corpus Omnia", "Rehabilitation", "Therapie"],
+  keywords: [
+    "Physiotherapie", "Dietlikon", "Zürich", "Corpus Omnia",
+    "Rehabilitation", "Therapie", "Orthopädie", "Neurologie",
+    "Lymphologie", "Sportphysiotherapie", "Geriatrie",
+    "Physiotherapie Dietlikon", "Physiotherapie Zürich",
+  ],
 };
 
 type Props = {

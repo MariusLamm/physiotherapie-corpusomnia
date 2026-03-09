@@ -69,6 +69,9 @@ export function Hero() {
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
               {t("subtitle")}
             </p>
+            <p className="text-sm text-muted-foreground/70 max-w-2xl mx-auto">
+              {t("seoIntro")}
+            </p>
           </div>
 
           <motion.div

@@ -12,7 +12,6 @@ import {
 import { ThemeToggle } from "@/components/theme-toggle";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import {
-  Clock,
   Award,
   MapPin,
   Mail,
@@ -23,7 +22,6 @@ import {
 import { useTranslations } from "next-intl";
 
 const navIcons: Record<string, React.ElementType> = {
-  "#offnungszeiten": Clock,
   "#expertise": Award,
   "#standort": MapPin,
   "#kontakt": Mail,
@@ -67,7 +65,7 @@ export function MobileNav({
             <div className="relative w-10 h-10 flex-shrink-0">
               <Image
                 src="/logo.png"
-                alt="PCO Logo"
+                alt="Physiotherapie Corpus Omnia"
                 fill
                 className="object-contain"
               />

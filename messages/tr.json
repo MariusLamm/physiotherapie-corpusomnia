@@ -1,4 +1,9 @@
 {
+  "meta": {
+    "homeTitle": "Dietlikon'da (Zürih) Fizyoterapi",
+    "homeDescription": "Fizyoterapi Corpus Omnia, Dietlikon (Zürih), İsviçre – Ortopedi, Nöroloji, Lenfoloji, Spor Fizyoterapisi, Geriatri. Kanıta dayalı, bekleme listesi yok. Hemen randevu alın!",
+    "siteName": "Fizyoterapi Corpus Omnia"
+  },
   "nav": {
     "openingHours": "Çalışma Saatleri",
     "expertise": "Uzmanlık",
@@ -14,7 +19,8 @@
     "subtitle": "En yeni bilimsel standartlara göre kanıta dayalı fizyoterapi. Dietlikon'da deneyimli terapistler tarafından profesyonel bakım.",
     "bookAppointment": "Online Randevu Al",
     "contactUs": "Bize Ulaşın",
-    "insuranceText": "Tüm sağlık sigortaları tarafından tanınmaktadır"
+    "insuranceText": "Tüm sağlık sigortaları tarafından tanınmaktadır",
+    "seoIntro": "Zürih yakınında Dietlikon'daki fizyoterapi kliniğiniz – ortopedi, nöroloji, lenfoloji, spor fizyoterapisi ve geriatri alanlarında uzmanlaşmış. Almanca, İngilizce ve Türkçe tedavi. Bekleme listesi yok."
   },
   "benefits": {
     "badge": "Avantajlarınız",
@@ -235,7 +241,9 @@
     "successTitle": "Mesaj başarıyla gönderildi!",
     "successDesc": "En kısa sürede size geri döneceğiz.",
     "errorTitle": "Gönderme hatası",
-    "errorDesc": "Mesajınız gönderilemedi. Lütfen tekrar deneyin veya bizi telefonla arayın."
+    "errorDesc": "Mesajınız gönderilemedi. Lütfen tekrar deneyin veya bizi telefonla arayın.",
+    "availability": "Bekleme listesi yok – kısa süreli randevular da bizde mümkündür. Randevunuzu online, telefonla, WhatsApp veya e-posta ile esnek bir şekilde ayarlayın.",
+    "bookOnline": "Şimdi online rezervasyon yapın"
   },
   "team": {
     "badge": "Ekibimiz",
@@ -253,7 +261,7 @@
     "floorPlan": "Kat Planı"
   },
   "footer": {
-    "description": "Dietlikon'da bireysel bakım ve en yeni bilimsel standartlara odaklanan kanıta dayalı fizyoterapi.",
+    "description": "Zürih yakınında Dietlikon'da kanıta dayalı fizyoterapi. Wallisellen, Dübendorf, Kloten ve Bassersdorf'tan hastalar da kabul edilmektedir. En yeni bilimsel standartlara göre bireysel bakım.",
     "quickLinks": "Hızlı Bağlantılar",
     "contact": "İletişim",
     "followUs": "Bizi Takip Edin",
@@ -261,6 +269,38 @@
     "agb": "Genel Şartlar",
     "privacy": "Gizlilik Politikası",
     "imprint": "Künye"
+  },
+  "faq": {
+    "badge": "SSS",
+    "title": "Sık Sorulan Sorular",
+    "description": "Dietlikon'daki fizyoterapi kliniğimiz hakkında en sık sorulan soruların cevaplarını burada bulabilirsiniz.",
+    "q1": {
+      "question": "Fizyoterapi için doktor reçetesine ihtiyacım var mı?",
+      "answer": "Evet, sağlık sigortanızın masrafları karşılaması için doktorunuzdan bir fizyoterapi reçetesi almanız gerekmektedir. Her reçete 9 tedavi seansını kapsar. Emin değilseniz, bizden profesyonel danışmanlık randevusu alabilirsiniz – size yardımcı olmaktan memnuniyet duyarız."
+    },
+    "q2": {
+      "question": "Sağlık sigortam fizyoterapi masraflarını karşılıyor mu?",
+      "answer": "Evet, doktor reçetesi ile masraflar tüm İsviçre sağlık sigortalarının temel sigortası tarafından karşılanmaktadır. Tüm sigorta şirketleri tarafından tanınmaktayız. Sigorta modelinize bağlı olarak muafiyet ve katılım payı uygulanabileceğini lütfen unutmayın."
+    },
+    "q3": {
+      "question": "Nasıl randevu alabilirim?",
+      "answer": "Randevunuzu online rezervasyon sistemimiz üzerinden, telefonla (+41 76 681 70 31), WhatsApp ile veya e-posta (info@physiotherapie-corpusomnia.ch) yoluyla kolayca alabilirsiniz. Anlaşmaya göre esnek randevu saatleri sunuyoruz."
+    },
+    "q4": {
+      "question": "Evde tedavi (domisil tedavi) sunuyor musunuz?",
+      "answer": "Evet, evde tedavi sunuyoruz. Dietlikon'daki kliniğimize gelemiyorsanız, evinize gelmekten memnuniyet duyarız. Önemli: Sağlık sigortanızın yol ücretini karşılayabilmesi için fizyoterapi reçetesinde evde tedavi seçeneğinin işaretlenmiş olması gerekmektedir."
+    },
+    "q5": {
+      "question": "Terapiyi hangi dillerde yapabilirsiniz?",
+      "answer": "Terapistimiz Goncagül Erol akıcı Almanca, İngilizce ve Türkçe konuşmaktadır. İlk değerlendirmeden tedaviye ve danışmanlığa kadar tüm tedavi süreci bu üç dilden herhangi birinde gerçekleştirilebilir."
+    },
+    "q6": {
+      "question": "Bekleme listesi var mı yoksa randevu için uzun süre beklemem mi gerekiyor?",
+      "answer": "Hayır, bizde bekleme listesi yoktur. Genellikle size kısa sürede randevu verebiliriz. Bize ulaşın, tedaviniz için uygun bir zaman bulalım."
+    }
+  },
+  "breadcrumb": {
+    "home": "Ana Sayfa"
   },
   "legal": {
     "agb": {

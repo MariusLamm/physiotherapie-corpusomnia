@@ -12,9 +12,9 @@ import {
 import { Globe } from "lucide-react";
 
 const languages = [
-  { code: "de", name: "Deutsch", flag: "🇩🇪" },
-  { code: "en", name: "English", flag: "🇬🇧" },
-  { code: "tr", name: "Türkçe", flag: "🇹🇷" },
+  { code: "de", name: "Deutsch" },
+  { code: "en", name: "English" },
+  { code: "tr", name: "Türkçe" },
 ];
 
 interface LanguageSwitcherProps {
@@ -55,8 +55,9 @@ export function LanguageSwitcher({ onBeforeSwitch }: LanguageSwitcherProps = {})
   return (
     <DropdownMenu open={open} onOpenChange={setOpen} modal={false}>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" aria-label="Change language">
-          <Globe className="h-5 w-5" />
+        <Button variant="ghost" size="sm" className="gap-1.5 px-2.5" aria-label="Change language">
+          <Globe className="h-4 w-4" />
+          <span className="text-sm font-medium">{currentLanguage.code.toUpperCase()}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
@@ -66,7 +67,6 @@ export function LanguageSwitcher({ onBeforeSwitch }: LanguageSwitcherProps = {})
             onClick={() => switchLanguage(language.code)}
             className={currentLocale === language.code ? "bg-accent" : ""}
           >
-            <span className="mr-2">{language.flag}</span>
             <span>{language.name}</span>
           </DropdownMenuItem>
         ))}

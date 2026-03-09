@@ -21,7 +21,7 @@ export function Footer() {
               <div className="relative w-10 h-10 flex-shrink-0">
                 <Image
                   src="/logo.png"
-                  alt="PCO Logo"
+                  alt="Physiotherapie Corpus Omnia"
                   fill
                   className="object-contain"
                 />
@@ -37,18 +37,18 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-sm font-semibold">{t("quickLinks")}</h4>
             <nav className="flex flex-col space-y-1 text-sm">
-              <a href="#offnungszeiten" className="text-muted-foreground hover:text-primary transition-colors py-1.5 md:py-0.5">
-                {tNav("openingHours")}
-              </a>
-              <a href="#expertise" className="text-muted-foreground hover:text-primary transition-colors py-1.5 md:py-0.5">
+              <Link href={`/${locale}#kontakt`} className="text-muted-foreground hover:text-primary transition-colors py-1.5 md:py-0.5">
+                {tNav("contact")}
+              </Link>
+              <Link href={`/${locale}#expertise`} className="text-muted-foreground hover:text-primary transition-colors py-1.5 md:py-0.5">
                 {tNav("expertise")}
-              </a>
-              <a href="#standort" className="text-muted-foreground hover:text-primary transition-colors py-1.5 md:py-0.5">
+              </Link>
+              <Link href={`/${locale}#standort`} className="text-muted-foreground hover:text-primary transition-colors py-1.5 md:py-0.5">
                 {tNav("location")}
-              </a>
-              <a href="#team" className="text-muted-foreground hover:text-primary transition-colors py-1.5 md:py-0.5">
+              </Link>
+              <Link href={`/${locale}#team`} className="text-muted-foreground hover:text-primary transition-colors py-1.5 md:py-0.5">
                 {tNav("team")}
-              </a>
+              </Link>
             </nav>
           </div>
 

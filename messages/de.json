@@ -1,4 +1,9 @@
 {
+  "meta": {
+    "homeTitle": "Physiotherapie in Dietlikon (Zürich)",
+    "homeDescription": "Physiotherapie Corpus Omnia in Dietlikon (Zürich) – Orthopädie, Neurologie, Lymphologie, Sportphysiotherapie, Geriatrie. Evidenzbasiert, keine Warteliste. Jetzt Termin buchen!",
+    "siteName": "Physiotherapie Corpus Omnia"
+  },
   "nav": {
     "openingHours": "Öffnungszeiten",
     "expertise": "Expertise",
@@ -14,7 +19,8 @@
     "subtitle": "Evidenzbasierte Physiotherapie nach dem neuesten wissenschaftlichen Standard. Professionelle Betreuung durch erfahrene Therapeuten in Dietlikon.",
     "bookAppointment": "Online Termin buchen",
     "contactUs": "Kontakt aufnehmen",
-    "insuranceText": "Anerkannt von allen Krankenkassen"
+    "insuranceText": "Anerkannt von allen Krankenkassen",
+    "seoIntro": "Ihre Physiotherapie-Praxis in Dietlikon bei Zürich – spezialisiert auf Orthopädie, Neurologie, Lymphologie, Sportphysiotherapie und Geriatrie. Behandlungen auf Deutsch, Englisch und Türkisch. Keine Warteliste."
   },
   "benefits": {
     "badge": "Ihre Vorteile",
@@ -235,7 +241,9 @@
     "successTitle": "Nachricht erfolgreich gesendet!",
     "successDesc": "Wir werden uns so schnell wie möglich bei Ihnen melden.",
     "errorTitle": "Fehler beim Senden",
-    "errorDesc": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns telefonisch."
+    "errorDesc": "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns telefonisch.",
+    "availability": "Keine Warteliste – auch kurzfristige Termine sind bei uns möglich. Vereinbaren Sie Ihren Termin flexibel online, telefonisch, per WhatsApp oder per E-Mail.",
+    "bookOnline": "Jetzt online buchen"
   },
   "team": {
     "badge": "Unser Team",
@@ -253,7 +261,7 @@
     "floorPlan": "Lageplan"
   },
   "footer": {
-    "description": "Evidenzbasierte Physiotherapie in Dietlikon mit Fokus auf individuelle Betreuung und neueste wissenschaftliche Standards.",
+    "description": "Evidenzbasierte Physiotherapie in Dietlikon bei Zürich. Auch für Patienten aus Wallisellen, Dübendorf, Kloten und Bassersdorf. Individuelle Betreuung nach neuestem wissenschaftlichem Standard.",
     "quickLinks": "Schnellzugriff",
     "contact": "Kontakt",
     "followUs": "Folgen Sie uns",
@@ -261,6 +269,38 @@
     "agb": "AGB",
     "privacy": "Datenschutz",
     "imprint": "Impressum"
+  },
+  "faq": {
+    "badge": "Häufige Fragen",
+    "title": "Häufig gestellte Fragen",
+    "description": "Hier finden Sie Antworten auf die am häufigsten gestellten Fragen rund um unsere Physiotherapie-Praxis in Dietlikon.",
+    "q1": {
+      "question": "Brauche ich eine ärztliche Verordnung für die Physiotherapie?",
+      "answer": "Ja, für die Kostenübernahme durch Ihre Krankenkasse benötigen Sie eine ärztliche Physiotherapieverordnung. Pro Verordnung werden 9 Behandlungen verschrieben. Falls Sie unsicher sind, können Sie gerne eine fachliche Beratung bei uns buchen – wir helfen Ihnen weiter."
+    },
+    "q2": {
+      "question": "Übernimmt meine Krankenkasse die Kosten für die Physiotherapie?",
+      "answer": "Ja, mit einer ärztlichen Verordnung werden die Kosten von der Grundversicherung aller Schweizer Krankenkassen übernommen. Wir sind von sämtlichen Krankenkassen anerkannt. Bitte beachten Sie, dass je nach Versicherungsmodell ein Selbstbehalt und eine Franchise anfallen können."
+    },
+    "q3": {
+      "question": "Wie kann ich einen Termin buchen?",
+      "answer": "Sie können Ihren Termin ganz einfach online über unser Buchungssystem, per Telefon (+41 76 681 70 31), per WhatsApp oder per E-Mail (info@physiotherapie-corpusomnia.ch) vereinbaren. Wir bieten flexible Terminzeiten nach Absprache an."
+    },
+    "q4": {
+      "question": "Bieten Sie auch Hausbesuche (Domizilbehandlungen) an?",
+      "answer": "Ja, wir bieten Domizilbehandlungen an. Wenn Sie nicht in unsere Praxis nach Dietlikon kommen können, kommen wir gerne zu Ihnen nach Hause. Wichtig: Auf der Physiotherapieverordnung muss die Domizilbehandlung angekreuzt sein, damit Ihre Krankenkasse die Wegpauschale übernimmt."
+    },
+    "q5": {
+      "question": "In welchen Sprachen können Sie die Therapie durchführen?",
+      "answer": "Unsere Therapeutin Goncagül Erol spricht fliessend Deutsch, Englisch und Türkisch. Die gesamte Behandlung – von der Anamnese über die Therapie bis zur Beratung – kann in jeder dieser drei Sprachen durchgeführt werden."
+    },
+    "q6": {
+      "question": "Gibt es eine Warteliste oder muss ich lange auf einen Termin warten?",
+      "answer": "Nein, bei uns gibt es keine Warteliste. In der Regel können wir Ihnen auch kurzfristig einen Termin anbieten. Kontaktieren Sie uns einfach und wir finden gemeinsam einen passenden Zeitpunkt für Ihre Behandlung."
+    }
+  },
+  "breadcrumb": {
+    "home": "Startseite"
   },
   "legal": {
     "agb": {

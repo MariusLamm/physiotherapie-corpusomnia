@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Phone, Mail, MessageSquare } from "lucide-react";
+import { Phone, Mail, MessageSquare, Calendar, Clock } from "lucide-react";
 import { toast } from "sonner";
 import { useTranslations } from "next-intl";
 
@@ -76,10 +76,34 @@ export function Contact() {
             </p>
           </div>
 
-          <div className="grid gap-6 lg:grid-cols-2 max-w-6xl mx-auto">
-            {/* Contact Information */}
-            <div>
-              <Card className="h-full">
+          <div className="max-w-6xl mx-auto space-y-6">
+            {/* Availability banner – full width */}
+            <Card className="border-2 border-primary/20 bg-primary/5">
+              <CardContent className="p-4 md:p-6">
+                <div className="flex flex-col items-center text-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Clock className="w-5 h-5 text-primary" />
+                  </div>
+                  <p className="text-sm text-muted-foreground max-w-2xl">
+                    {t("availability")}
+                  </p>
+                  <Button asChild size="lg">
+                    <a
+                      href="https://web.cenplexbooking.ch/appointment-selection?customerId=258&locationId=426"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Calendar className="mr-2 h-4 w-4" />
+                      {t("bookOnline")}
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Contact Info + Form – side by side */}
+            <div className="grid gap-6 lg:grid-cols-2 items-stretch">
+              <Card>
                 <CardHeader>
                   <CardTitle>{t("contactInfo")}</CardTitle>
                 </CardHeader>
@@ -144,70 +168,68 @@ export function Contact() {
                 </CardContent>
               </Card>
 
+              {/* Contact Form */}
+              <Card>
+                <CardHeader>
+                  <CardTitle>{t("sendMessage")}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <form onSubmit={handleSubmit} className="space-y-4">
+                    {/* Honeypot field: hidden from users, bots fill it and get rejected */}
+                    <div className="overflow-hidden h-0 w-0 opacity-0" aria-hidden="true" tabIndex={-1}>
+                      <input type="text" name="website" tabIndex={-1} autoComplete="off" />
+                    </div>
+                    <div className="grid gap-4 sm:grid-cols-2">
+                      <div className="space-y-2">
+                        <Label htmlFor="firstName">{t("firstName")} *</Label>
+                        <Input id="firstName" name="firstName" required placeholder="Max" />
+                      </div>
+                      <div className="space-y-2">
+                        <Label htmlFor="lastName">{t("lastName")} *</Label>
+                        <Input id="lastName" name="lastName" required placeholder="Mustermann" />
+                      </div>
+                    </div>
 
+                    <div className="space-y-2">
+                      <Label htmlFor="phone">{t("phoneNumber")} *</Label>
+                      <Input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        required
+                        placeholder="+41 XX XXX XX XX"
+                      />
+                    </div>
+
+                    <div className="space-y-2">
+                      <Label htmlFor="email">{t("emailAddress")} *</Label>
+                      <Input
+                        id="email"
+                        name="email"
+                        type="email"
+                        required
+                        placeholder="max.mustermann@example.com"
+                      />
+                    </div>
+
+                    <div className="space-y-2">
+                      <Label htmlFor="message">{t("message")} *</Label>
+                      <Textarea
+                        id="message"
+                        name="message"
+                        required
+                        placeholder={t("yourMessage")}
+                        rows={5}
+                      />
+                    </div>
+
+                    <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
+                      {isSubmitting ? t("sending") : t("send")}
+                    </Button>
+                  </form>
+                </CardContent>
+              </Card>
             </div>
-
-            {/* Contact Form */}
-            <Card className="h-full">
-              <CardHeader>
-                <CardTitle>{t("sendMessage")}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  {/* Honeypot field: hidden from users, bots fill it and get rejected */}
-                  <div className="absolute opacity-0 -z-10" aria-hidden="true" tabIndex={-1}>
-                    <input type="text" name="website" tabIndex={-1} autoComplete="off" />
-                  </div>
-                  <div className="grid gap-4 sm:grid-cols-2">
-                    <div className="space-y-2">
-                      <Label htmlFor="firstName">{t("firstName")} *</Label>
-                      <Input id="firstName" name="firstName" required placeholder="Max" />
-                    </div>
-                    <div className="space-y-2">
-                      <Label htmlFor="lastName">{t("lastName")} *</Label>
-                      <Input id="lastName" name="lastName" required placeholder="Mustermann" />
-                    </div>
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="phone">{t("phoneNumber")} *</Label>
-                    <Input
-                      id="phone"
-                      name="phone"
-                      type="tel"
-                      required
-                      placeholder="+41 XX XXX XX XX"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="email">{t("emailAddress")} *</Label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      required
-                      placeholder="max.mustermann@example.com"
-                    />
-                  </div>
-
-                  <div className="space-y-2">
-                    <Label htmlFor="message">{t("message")} *</Label>
-                    <Textarea
-                      id="message"
-                      name="message"
-                      required
-                      placeholder={t("yourMessage")}
-                      rows={5}
-                    />
-                  </div>
-
-                  <Button type="submit" size="lg" className="w-full" disabled={isSubmitting}>
-                    {isSubmitting ? t("sending") : t("send")}
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
           </div>
         </motion.div>
       </div>

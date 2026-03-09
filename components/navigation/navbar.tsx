@@ -18,10 +18,9 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
   const navItems = [
-    { label: t("openingHours"), href: "#offnungszeiten" },
+    { label: t("contact"), href: "#kontakt" },
     { label: t("expertise"), href: "#expertise" },
     { label: t("location"), href: "#standort" },
-    { label: t("contact"), href: "#kontakt" },
     { label: t("team"), href: "#team" },
   ];
 
@@ -136,7 +135,7 @@ export function Navbar() {
               <div className="relative w-10 h-10 flex-shrink-0">
                 <Image
                   src="/logo.png"
-                  alt="PCO Logo"
+                   alt="Physiotherapie Corpus Omnia"
                   fill
                   className="object-contain"
                   priority

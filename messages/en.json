@@ -1,4 +1,9 @@
 {
+  "meta": {
+    "homeTitle": "Physiotherapy in Dietlikon (Zurich)",
+    "homeDescription": "Physiotherapy Corpus Omnia in Dietlikon (Zurich), Switzerland – Orthopedics, Neurology, Lymphology, Sports Physiotherapy, Geriatrics. Evidence-based, no waiting list. Book your appointment now!",
+    "siteName": "Physiotherapy Corpus Omnia"
+  },
   "nav": {
     "openingHours": "Opening Hours",
     "expertise": "Expertise",
@@ -14,7 +19,8 @@
     "subtitle": "Evidence-based physiotherapy according to the latest scientific standards. Professional care by experienced therapists in Dietlikon.",
     "bookAppointment": "Book Appointment Online",
     "contactUs": "Contact Us",
-    "insuranceText": "Recognized by all health insurance companies"
+    "insuranceText": "Recognized by all health insurance companies",
+    "seoIntro": "Your physiotherapy practice in Dietlikon near Zurich – specializing in orthopedics, neurology, lymphology, sports physiotherapy, and geriatrics. Treatments in German, English, and Turkish. No waiting list."
   },
   "benefits": {
     "badge": "Your Benefits",
@@ -235,7 +241,9 @@
     "successTitle": "Message sent successfully!",
     "successDesc": "We will get back to you as soon as possible.",
     "errorTitle": "Failed to send",
-    "errorDesc": "Your message could not be sent. Please try again or contact us by phone."
+    "errorDesc": "Your message could not be sent. Please try again or contact us by phone.",
+    "availability": "No waiting list – even short-notice appointments are possible. Schedule your appointment flexibly online, by phone, via WhatsApp, or by email.",
+    "bookOnline": "Book online now"
   },
   "team": {
     "badge": "Our Team",
@@ -253,7 +261,7 @@
     "floorPlan": "Floor Plan"
   },
   "footer": {
-    "description": "Evidence-based physiotherapy in Dietlikon with a focus on individual care and the latest scientific standards.",
+    "description": "Evidence-based physiotherapy in Dietlikon near Zurich. Also serving patients from Wallisellen, Dubendorf, Kloten, and Bassersdorf. Individual care based on the latest scientific standards.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "followUs": "Follow Us",
@@ -261,6 +269,38 @@
     "agb": "Terms & Conditions",
     "privacy": "Privacy Policy",
     "imprint": "Imprint"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to the most commonly asked questions about our physiotherapy practice in Dietlikon.",
+    "q1": {
+      "question": "Do I need a doctor's prescription for physiotherapy?",
+      "answer": "Yes, for your health insurance to cover the costs, you need a physiotherapy prescription from your doctor. Each prescription covers 9 treatment sessions. If you are unsure, you can book a professional consultation with us – we are happy to help."
+    },
+    "q2": {
+      "question": "Does my health insurance cover physiotherapy costs?",
+      "answer": "Yes, with a doctor's prescription, the costs are covered by the basic insurance of all Swiss health insurance companies. We are recognized by all insurance providers. Please note that depending on your insurance model, a deductible and co-payment may apply."
+    },
+    "q3": {
+      "question": "How can I book an appointment?",
+      "answer": "You can easily book your appointment online through our booking system, by phone (+41 76 681 70 31), via WhatsApp, or by email (info@physiotherapie-corpusomnia.ch). We offer flexible appointment times by arrangement."
+    },
+    "q4": {
+      "question": "Do you offer home visits (domiciliary treatments)?",
+      "answer": "Yes, we offer home treatments. If you cannot come to our practice in Dietlikon, we are happy to come to your home. Important: Home treatment must be checked on the physiotherapy prescription so that your health insurance covers the travel allowance."
+    },
+    "q5": {
+      "question": "In which languages can you conduct the therapy?",
+      "answer": "Our therapist Goncagül Erol speaks fluent German, English, and Turkish. The entire treatment – from the initial assessment through therapy to consultation – can be conducted in any of these three languages."
+    },
+    "q6": {
+      "question": "Is there a waiting list or do I have to wait long for an appointment?",
+      "answer": "No, we have no waiting list. We can usually offer you an appointment at short notice. Simply contact us and we will find a suitable time for your treatment together."
+    }
+  },
+  "breadcrumb": {
+    "home": "Home"
   },
   "legal": {
     "agb": {
